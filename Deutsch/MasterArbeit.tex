@@ -1,0 +1,195 @@
+\documentclass[12pt]{extarticle}
+\date{}
+\usepackage[clines,headsepline,autooneside,automark,markuppercase]{scrpage2} 
+\setheadsepline{1pt}
+%\setfootsepline{0.4pt}
+\ifoot{}\cfoot{\pagemark}\ofoot{}
+\pagestyle{scrheadings} % use plain for standard
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage{graphicx} 						%package to include graphics
+\usepackage{setspace} 						%package to set space between lines
+\usepackage{lscape} 							%package to rotate pages
+\usepackage{booktabs} 						%package for nice tables
+\usepackage{amsmath,amsfonts,amssymb} 			%packages for LaTeX that provides various features to 		
+										%facilitate writing mathformulas and to improve the 		
+										%typographical quality of their output 
+\usepackage{pifont}
+\usepackage{array}							%package for extending array and tabular environments
+\usepackage{textcomp}						%package support of the text companion fonts
+\usepackage{exscale} 						%package for nice summation sign 
+\usepackage{tabularx} 						%package for column width and linebreaks in table cells
+\usepackage{ragged2e} 						%package provides less raggedness
+										%commands \flushleft and \flushright
+\usepackage{multirow}           					%package to combine cells in tables
+\usepackage{eurosym} 						%package to get eurosymbol per \euro
+\usepackage{enumerate}						%package to make nice lists
+\usepackage{ulem}							%package for uline
+\usepackage{wasysym}						%package for weird symbols and geometric figs
+\usepackage{hyperref}						%package for clickable TOC
+\usepackage{cleveref}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{pdfpages}
+\usepackage{color}
+\usepackage{framed}
+\usepackage{caption}
+\usepackage{bbm}
+\setlength{\parindent}{4em}
+\setlength{\parskip}{0.5em}
+\setlength{\headheight}{1.1\baselineskip}
+
+\definecolor{graycolor}{rgb}{.35,.35,.35}
+\newenvironment{fshaded}{%
+\def\FrameCommand{\fcolorbox{framecolor}{shadecolor}}%
+\MakeFramed {\advance\hsize-\width \FrameRestore}}%
+{\endMakeFramed}
+\newenvironment{fsatz}[1][]{\definecolor{shadecolor}{rgb}{1,.94,.94}%
+\definecolor{framecolor}{rgb}{1,0,0}%
+\begin{fshaded}\begin{Satz}[#1]}{\end{Satz}\end{fshaded}}
+\newenvironment{fdef}[1][]{\definecolor{shadecolor}{rgb}{.94,.94,1}%
+\definecolor{framecolor}{rgb}{.1,.0,.7}%
+\begin{fshaded}\begin{Definition}[#1]}{\end{Definition}\end{fshaded}}
+
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\daf}{$\implies$}
+\newcommand{\bs}{\backslash}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\lmin}{\lambda_{\mathrm{min}}}
+\newcommand{\F}{\mathcal{F}}
+\newcommand{\C}{\mathcal{C}}
+\newcommand{\Rn}{\mathbb{R}^n}
+\newcommand{\Linie}{\rule{\linewidth}{0.6mm}}
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\begin{document}
+
+
+
+\begin{titlepage}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\center
+\textsc{\LARGE Universität zu Köln}\\[1.5cm]
+\textsc{\Large Masterarbeit}\\[0.5cm] 
+\textsc{\large 3D-Interaktion und Visualisierung in der Wissenschaft}\\[0.5cm] 
+\HRule \\[0.4cm]
+{ \Large \bfseries Gestaltung von einer Benutzeroberfläche für die Visualisierung und Manipulation von dreidimensionalen virtuellen Objekten}\\[0.4cm]
+\HRule \\[1.5cm]
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Eingereicht von:}\\
+Pedro Fernando \\
+Arizpe Gomez\\ 
+		Matrikelnummer:\\5500958 
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright}
+\large\emph{Professor:} \\
+Prof. Dr. Lang
+\end{flushright}
+\end{minipage}\\[4cm]
+{\large 17.01.2016}\\[3cm] 
+\vfill 
+\end{titlepage}
+\tableofcontents
+\pagebreak{}
+
+\section{Einleitung} Der Hauptziel von dieser Arbeit ist die Implementierung von einer Benutzeroberfläche für die Visualisierung von 3D Objekte, durch eine stereoskopische Projektion, und dessen Manipulation durch die Zusammenführung von einen Touchscreen und einer Kinect 2.0 Kamera.
+\subsection{Geometrie und 3D Darstellung}
+Die übliche Mensch-Maschine Interaktion heutzutage findet auf 2-Zweidimensionale Bildschirme statt. Aus diesem Grund, muss man eine optische Täuschung verwenden, um Dreidimensionale Objekte zu erzeugen.\\
+
+%Monitore und Projektoren können nur eine endliche Anzahl an Pixeln (Picture Elements) darstellen, daher muss man verschiedene Konzepten von Geometrie, Optik und Färbung optimal ausnutzen.
+
+\subsubsection*{Wie funktioniert die 3D Darstellung?}
+	\begin{itemize}
+	\item Was ist OpenGL und wofür braucht man das?
+	\item Vector und Fragment Shader
+	\item Beleuchtung
+	\item Perspektive
+	\item Farbe
+	\item Transparenz
+	\item Was ist ein Visualisierung-Frustum?
+	\item Was heißt  Stereographische Darstellung?
+	\item Warum brauchen wir 2 Kamera Positionen?
+	\item Was ist ein Quad-Buffer und wie funktioniert es?
+	\item Wie funktionieren 3D-Gläser?
+	\item Welche Arten von 3D Gläser gibt es? 
+	\end{itemize}
+
+
+
+\section{Status Quo}
+Dieser Abschnitt erklärt wie der Stand der Wissenschaft im Thema 3D Visualisierung und Manipulation ist.
+\subsection{Oculus Rift}
+\subsubsection{Ähnlichkeiten}
+Dreidimensionale Objekte werden dargestellt
+\subsubsection{Unterschiede und Novitäten}
+\subsection{Leap motion}
+\subsubsection{Ähnlichkeiten}
+Dreidimensionale Objekte werden dargestellt und manipuliert mit Handbewegungen.
+\subsubsection{Unterschiede und Novitäten}
+Die Manipulation des Objektes passiert auf Hands-On-Modus anstatt auf Fernmodus.
+\subsection{Touchless Gesture Control}
+\subsubsection{Ähnlichkeiten}
+\subsubsection{Unterschiede und Novitäten}
+\subsection{CAVE: Cave automatic virtual environment}
+\subsubsection{Ähnlichkeiten}
+\subsubsection{Unterschiede und Novitäten}
+\subsection{Kinect}
+\subsubsection{Ähnlichkeiten}
+
+\subsubsection{Unterschiede und Novitäten}
+Kinect Videospiele generieren einen "Pointer" als Interaktion-Dummy für den virtuellen Objekten, Artifact Viewer benutzt die Koordinaten, die von der Kinect Kamera gelesen werden und 
+
+\newpage
+\section{Artifact Viewer}
+Dieser Abschnitt beschreibt das Programm Artifact Viewer, dessen Funktionen, Struktur
+
+\subsection{Struktur und Entstehung}
+	\begin{itemize}
+	\item Warum Qt?
+	\item Threads
+	\item Zusammenführung von Touchscreen und Kinect
+	\item GUI
+	\end{itemize}
+	
+\subsection{Geste-Beschreibung}
+Dieser Unterabschnitt beschreibt die Bewegungen und Geste , die vom ArtefactViewer interpretiert werden können.
+\subsubsection{KINECT Gesten}
+Dieser Unterabschnitt enthält die Bewegungen die von der KINECT 2.0 Kamera
+
+\subsubsection{Smart 3DTV Touchscreen Gesten}
+Dieser Unterabschnitt enthält die Touch-Geste die von der Smart 3DTV Touchscreen
+\begin{itemize}
+\item Finger Down\\
+Immer wenn ein neuer Finger den Bildschirm berührt, wird das Objekt "Angefasst". \\
+
+Falls das Finger sich auf dem Objekt befindet und 3 Sekunden keine Bewegung zeigt, wird das als Verankerung erkannt und dann kann ein zweiten Finger eine Rotation anfangen.
+
+\item Finger Move\\
+Wenn eine Änderung in der Position von einem oder mehreren Fingern entsteht, wird zwischen mehrere Fälle unterschieden:
+\begin{itemize}
+\item Single Finger Swipe\\
+Es gibt nur einen Finger auf dem Bildschirm und er bewegt sich. Dann kommt eine Versetzung der Achsen oder Shift-Move
+\item Pinch\\
+Es gibt 2 Fingern auf dem Bildschirm die Entfernung zwischen den Beiden wird kleiner. Dann kommt ein Zoom-In.
+\item Split\\
+Es gibt 2 Fingern auf dem Bildschirm und die Entfernung zwischen den Beiden wird größer. Dann kommt ein Zoom-Out.
+\item 2+ Finger Swipe\\
+Es gibt 2 oder mehr Fingern auf dem Bildschirm und sie bewegen sich in der gleiche Richtung. Dann kommt ein Trackball-Move, dessen Geschwindigkeit sinkt mit der Anzahl an Fingern.
+\end{itemize}
+
+\item Finger Up\\
+Ein Finger verlässt den Bildschirm. Falls es keine Fingern mehr auf dem Bildschirm befinden, wird die Interaktion beendet.
+\end{itemize}
+
+\section {Zusammenfassung und Konklusion}
+\section*{Literaturverzeichnis}
+\bibliography{Refs}
+\bibliographystyle{ieeetr}
+\end{document}
