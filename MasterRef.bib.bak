@@ -7,6 +7,36 @@
   year={1989}
 }
 
+@article{moscow,
+  title={MoSCow Prioritisation},
+  author={Ash, Steve},
+  journal={DSDM Consortium},
+  year={2007}
+}
+@book{wiegers,
+  title={Software requirements},
+  author={Wiegers, Karl and Beatty, Joy},
+  year={2013},
+  pages={320-321},
+  publisher={Pearson Education}
+}
+
+@article{FoleyVisualization,
+  title={Next-generation data visualization tools},
+  author={Ribarsky, William and Foley, James D},
+  year={1994},
+  pages={104},
+  publisher={Georgia Institute of Technology}
+}
+
+@article{GestureDef,
+  title={Objects, containers, gestures, and manipulations: Universal foundational metaphors of natural user interfaces},
+  author={George, Ron and Blake, Joshua},
+  journal={CHI 2010},
+  pages={10--15},
+  year={2010}
+}
+
 @INPROCEEDINGS{Kinect, 
 author={A. Payne and A. Daniel and A. Mehta and B. Thompson and C. S. Bamji and D. Snow and H. Oshima and L. Prather and M. Fenton and L. Kordus and P. O'Connor and R. McCauley and S. Nayak and S. Acharya and S. Mehta and T. Elkhatib and T. Meyer and T. O'Dwyer and T. Perry and Vei-Han Chan and V. Wong and V. Mogallapu and W. Qian and Zhanping Xu}, 
 booktitle={Solid-State Circuits Conference Digest of Technical Papers (ISSCC), 2014 IEEE International}, 
@@ -142,7 +172,7 @@ archivePrefix = "arXiv",
 
 @article{AV,
   title={Visualisierung Archäologischer Datensätze},
-  author={DOMINIC MICHAEL LAURENTIUS},
+  author={Dominic Michael Laurentius},
   year={2014},
   journal={Universität zu Köln, Diplomarbeit}
 }

@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{NUIWorld}
+G.~Goth, ``Brave nui world,'' {\em Communications of the ACM}, vol.~54, no.~12,
+  pp.~14--16, 2011.
+
 \bibitem{Bau10}
 A.~Baumesberger, ``utouch3d: Multi-touch interaction in virtual reality,'' {\em
   Universität Koblenz Landau, Diplomarbeit}, 2010.
@@ -21,29 +25,55 @@ M.~N.~K. Boulos, B.~J. Blanchard, C.~Walker, J.~Montero, A.~Tripathy, and
   interface for google earth navigation,'' {\em International journal of health
   geographics}, vol.~10, no.~1, p.~1, 2011.
 
-\bibitem{AV}
-D.~M. LAURENTIUS, ``Visualisierung archäologischer datensätze,'' {\em
-  Universität zu Köln, Diplomarbeit}, 2014.
-
-\bibitem{NUIWorld}
-G.~Goth, ``Brave nui world,'' {\em Communications of the ACM}, vol.~54, no.~12,
-  pp.~14--16, 2011.
-
 \bibitem{NASA}
 C.~J. {Fluke} and D.~G. {Barnes}, ``{The Ultimate Display},'' {\em ArXiv
   e-prints}, Jan. 2016.
 
-\bibitem{3Don2D88}
+\bibitem{3DOn2D88}
 M.~Chen, S.~J. Mountford, and A.~Sellen, ``A study in interactive 3-d rotation
   using 2-d control devices,'' in {\em Proceedings of the 15th Annual
   Conference on Computer Graphics and Interactive Techniques}, SIGGRAPH '88,
   (New York, NY, USA), pp.~121--129, ACM, 1988.
+
+\bibitem{3DTV}
+H.~Yuan, J.~Ćalić, A.~Fernando, and A.~Kondoz, ``Investigation and evaluation
+  of pointing modalities for interactive stereoscopic 3d tv,'' in {\em
+  Multimedia and Expo (ICME), 2013 IEEE International Conference on}, pp.~1--6,
+  July 2013.
+
+\bibitem{Moscow}
+S.~Ash, ``Moscow prioritisation,'' {\em DSDM Consortium}, 2007.
+
+\bibitem{Wiegers}
+K.~Wiegers and J.~Beatty, {\em Software requirements}.
+\newblock Pearson Education, 2013.
+
+\bibitem{AV}
+D.~M. Laurentius, ``Visualisierung archäologischer datensätze,'' {\em
+  Universität zu Köln, Diplomarbeit}, 2014.
+
+\bibitem{DirManSh}
+B.~Shneiderman, ``Direct manipulation: A step beyond programming languages,''
+  in {\em ACM SIGSOC Bulletin}, vol.~13, p.~143, ACM, 1981.
+
+\bibitem{FoleyVisualization}
+W.~Ribarsky and J.~D. Foley, ``Next-generation data visualization tools,''
+  p.~104, 1994.
+
+\bibitem{GestureDef}
+R.~George and J.~Blake, ``Objects, containers, gestures, and manipulations:
+  Universal foundational metaphors of natural user interfaces,'' {\em CHI
+  2010}, pp.~10--15, 2010.
 
 \bibitem{RST}
 Reisman, J.~L., Davidson, P.~L., Han, and J.~Y., ``A screen-space formulation
   for 2d and 3d direct manipulation,'' in {\em Proceedings of the 22Nd Annual
   ACM Symposium on User Interface Software and Technology}, UIST '09, (New
   York, NY, USA), pp.~69--78, ACM, 2009.
+
+\bibitem{OED}
+O.~E. Dictionary, ``Oed online,'' {\em Oxford University Press. http://www.
+  oed. com, Accessed Nov}, vol.~30, p.~2006, 1989.
 
 \bibitem{Shneiderman}
 B.~SHNEIDERMAN, ``Designing the user interface: strategies for effective

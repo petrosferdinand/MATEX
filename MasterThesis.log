@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.13)  18 MAR 2016 12:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.13)  3 MAY 2016 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -919,31 +919,55 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 )
-(./MasterThesis.aux)
+(./MasterThesis.aux
+
+LaTeX Warning: Label `KinectGestures' multiply defined.
+
+
+LaTeX Warning: Label `KinectGestures@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig: OCL' multiply defined.
+
+
+LaTeX Warning: Label `fig: OCL@cref' multiply defined.
+
+
+LaTeX Warning: Label `subsubsec Rot' multiply defined.
+
+
+LaTeX Warning: Label `subsubsec Rot@cref' multiply defined.
+
+
+LaTeX Warning: Label `subsubsec Scale' multiply defined.
+
+
+LaTeX Warning: Label `subsubsec Scale@cref' multiply defined.
+
+)
 \openout1 = `MasterThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 85.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 89.
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 85.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 89.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -979,9 +1003,9 @@ e
 \c@lstlisting=\count138
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 85.
+LaTeX Info: Redefining \selectfont on input line 89.
 \AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring OFF on input line 85.
+Package hyperref Info: Link coloring OFF on input line 89.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -991,9 +1015,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count139
 )
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
-LaTeX Info: Redefining \nameref on input line 85.
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
 
 (./MasterThesis.out) (./MasterThesis.out)
 \@outlinefile=\write3
@@ -1001,47 +1025,47 @@ LaTeX Info: Redefining \nameref on input line 85.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 103.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 109.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 103.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 109.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 103
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 109
 .
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 103
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 109
 .
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 103.
+(Font)              <12> on input line 109.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 103.
+(Font)              <8> on input line 109.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 103.
-LaTeX Font Info:    Try loading font information for U+msa on input line 103.
+(Font)              <6> on input line 109.
+LaTeX Font Info:    Try loading font information for U+msa on input line 109.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 103.
+LaTeX Font Info:    Try loading font information for U+msb on input line 109.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 103.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 109.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
@@ -1052,777 +1076,168 @@ erThesis.tocpdfTeX warning (ext4): destination with the same identifier (name{p
 age.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 ...mberline {5.1}Concept}{11}{subsection.5.1}
-                                                   [1])
+l.26 ...{4.4.4} Lighting}{15}{subsubsection.4.4.4}
+                                                   [1] [2])
 \tf@toc=\write4
 \openout4 = `MasterThesis.toc'.
 
- [2]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 135.
-
-[3]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 150.
-
-[4]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 159.
-
+ [3] [4] [5]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 160.
+(Font)              <10> on input line 165.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 160.
+(Font)              <7> on input line 165.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 160.
-[5] [6]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 186.
-
-
-LaTeX Warning: Citation `oed' on page 7 undefined on input line 186.
-
-! Use of \refstepcounter@optarg doesn't match its definition.
-\@ifnextchar ... \reserved@d =#1\def \reserved@a {
-                                                  #2}\def \reserved@b {#3}\f...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Use of \@xfootnote doesn't match its definition.
-\@ifnextchar ...eserved@d =#1\def \reserved@a {#2}
-                                                  \def \reserved@b {#3}\futu...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \csname\endcsname
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Undefined control sequence.
-\hyper@makecurrent ...\begingroup \edef \Hy@param 
-                                                  {#1}\ifx \Hy@param \Hy@cha...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\hyper@makecurrent ...hypertexnames \let \@number 
-                                                  \@firstofone \def \@fnsymb...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   }
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   1
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   1
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   1
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Undefined control sequence.
-\hyper@makecurrent ...lobalCurrentHref {\Hy@param 
-                                                  .\expandafter \strip@prefi...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Use of \refstepcounter@optarg doesn't match its definition.
-\@ifnextchar ... \reserved@d =#1\def \reserved@a {
-                                                  #2}\def \reserved@b {#3}\f...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Use of \@xfootnote doesn't match its definition.
-\@ifnextchar ...eserved@d =#1\def \reserved@a {#2}
-                                                  \def \reserved@b {#3}\futu...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \csname\endcsname
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Undefined control sequence.
-\hyper@makecurrent ...\begingroup \edef \Hy@param 
-                                                  {#1}\ifx \Hy@param \Hy@cha...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\hyper@makecurrent ...hypertexnames \let \@number 
-                                                  \@firstofone \def \@fnsymb...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   }
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   1
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   1
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   1
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Undefined control sequence.
-\hyper@makecurrent ...lobalCurrentHref {\Hy@param 
-                                                  .\expandafter \strip@prefi...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\Hy@wrapper@babel ...set@display@protect \edef \x 
-                                                  {#2}\@onelevel@sanitize \x...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \x 
-              
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Argument of \strip@prefix has an extra }.
-<inserted text> 
-                \par 
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-undefined
-! Paragraph ended before \strip@prefix was complete.
-<to be read again> 
-                   \par 
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Argument of \HyWrap@new@pdflink has an extra }.
-<inserted text> 
-                \par 
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \HyWrap@new@pdflink was complete.
-<to be read again> 
-                   \par 
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Undefined control sequence.
-\Hy@wrapper@babel ...itize \x \toks@ {#1}\edef \x 
-                                                  {\endgroup \the \toks@ {\x...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\Hy@wrapper@babel ...x {\endgroup \the \toks@ {\x 
-                                                  }}\x 
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\Hy@wrapper@babel ...ndgroup \the \toks@ {\x }}\x 
-                                                  
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\addcontentsline ...ame {0}\fi \edef \Hy@toclevel 
-                                                  {\csname toclevel@#2\endcs...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \Hy@toclevel 
-                        
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   >
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Use of \refstepcounter@optarg doesn't match its definition.
-\protected@write ...le@protect \edef \reserved@a {
-                                                  \write #1{#3}}\reserved@a ...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Use of \refstepcounter@optarg doesn't match its definition.
-\@ifnextchar ... \reserved@d =#1\def \reserved@a {
-                                                  #2}\def \reserved@b {#3}\f...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Use of \@xfootnote doesn't match its definition.
-\@ifnextchar ...eserved@d =#1\def \reserved@a {#2}
-                                                  \def \reserved@b {#3}\futu...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \csname\endcsname
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Undefined control sequence.
-\hyper@makecurrent ...\begingroup \edef \Hy@param 
-                                                  {#1}\ifx \Hy@param \Hy@cha...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\hyper@makecurrent ...hypertexnames \let \@number 
-                                                  \@firstofone \def \@fnsymb...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   }
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   1
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   1
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   1
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Undefined control sequence.
-\hyper@makecurrent ...lobalCurrentHref {\Hy@param 
-                                                  .\expandafter \strip@prefi...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\H@old@sect ...sname }\fi #7}\else \def \@svsechd 
-                                                  {#6{\hskip #3\relax \@svse...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Use of \refstepcounter@optarg doesn't match its definition.
-\@ifnextchar ... \reserved@d =#1\def \reserved@a {
-                                                  #2}\def \reserved@b {#3}\f...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Use of \@xfootnote doesn't match its definition.
-\@ifnextchar ...eserved@d =#1\def \reserved@a {#2}
-                                                  \def \reserved@b {#3}\futu...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \global 
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \csname\endcsname
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Undefined control sequence.
-\hyper@makecurrent ...\begingroup \edef \Hy@param 
-                                                  {#1}\ifx \Hy@param \Hy@cha...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\hyper@makecurrent ...hypertexnames \let \@number 
-                                                  \@firstofone \def \@fnsymb...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   }
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   1
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   1
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ##
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal parameter number in definition of \@themark.
-<to be read again> 
-                   1
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Undefined control sequence.
-\hyper@makecurrent ...lobalCurrentHref {\Hy@param 
-                                                  .\expandafter \strip@prefi...
-l.186 ...l, basic; elemental.\cite{oed}} software}
-                                                  \label{sec:AV}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+(Font)              <5> on input line 165.
+
+[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
+<Images/KinectHandStates.png, id=472, 270.41025pt x 126.4725pt>
+File: Images/KinectHandStates.png Graphic file (type png)
+
+<use Images/KinectHandStates.png>
+Package pdftex.def Info: Images/KinectHandStates.png used on input line 430.
+(pdftex.def)             Requested size: 405.61436pt x 189.70827pt.
+
+Overfull \hbox (15.61436pt too wide) in paragraph at lines 430--431
+[][] 
+ []
+
+[20] [21 <./Images/KinectHandStates.png>] [22] [23] (./MasterThesis.bbl
+[24]
+Underfull \hbox (badness 7504) in paragraph at lines 52--54
+[]\T1/lmr/m/n/12 D. M. Lau-ren-tius, ``Vi-su-al-isierung archäol-o-gis-cher dat
+en-sätze,''
+ []
+
+[25]) [26]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 489.
+
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-! Incomplete \iffalse; all text was ignored after line 186.
-<inserted text> 
-                \fi 
-<*> MasterThesis.tex
-                    
-The file ended while I was skipping conditional text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
+Overfull \hbox (54.60571pt too wide) in paragraph at lines 515--516
+[][][][][][][][][][][][][][][][][] 
+ []
 
-! Emergency stop.
-<*> MasterThesis.tex
-                    
-*** (job aborted, no legal \end found)
 
- 
+Overfull \hbox (24.96533pt too wide) in paragraph at lines 518--519
+[][][][][][][][][][][][][][] 
+ []
+
+[27]
+Overfull \hbox (32.37543pt too wide) in paragraph at lines 525--526
+[][][][][][][][][][][][][][] 
+ []
+
+[28]
+Underfull \hbox (badness 10000) in alignment at lines 545--545
+[][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 549--549
+[][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 552--552
+[][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 555--555
+[][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 558--558
+[][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 561--561
+[][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 564--564
+[][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 567--567
+[][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 570--570
+[][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 573--573
+[][][][][] 
+ []
+
+[29] [30]
+File: Images/KinectHandStates.png Graphic file (type png)
+ <use Images/KinectHandStates.png>
+Package pdftex.def Info: Images/KinectHandStates.png used on input line 602.
+(pdftex.def)             Requested size: 405.61436pt x 189.70827pt.
+
+Overfull \hbox (15.61436pt too wide) in paragraph at lines 602--603
+[][] 
+ []
+
+[31] [32] [33]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 649.
+ [34]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 649.
+ (./MasterThesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 649.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 649.
+Package rerunfilecheck Info: File `MasterThesis.out' has not changed.
+(rerunfilecheck)             Checksum: 1C71DC10F59B33C43A6F18B9F518ABC4;4020.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 649.
+ ) 
 Here is how much of TeX's memory you used:
- 13049 strings out of 493488
- 202631 string characters out of 3141325
- 316750 words of memory out of 3000000
- 16041 multiletter control sequences out of 15000+200000
- 79502 words of font info for 77 fonts, out of 3000000 for 9000
+ 13706 strings out of 493488
+ 209569 string characters out of 3141325
+ 343752 words of memory out of 3000000
+ 16545 multiletter control sequences out of 15000+200000
+ 75595 words of font info for 72 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,12n,58p,581b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 36i,14n,58p,600b,1930s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
+xlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2012
+/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2012/texmf-dist/fo
+nts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2012/texmf-dist/fonts/enc/dv
+ips/lm/lm-mathsy.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/
+lmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmcsc10.pf
+b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2012/texm
+f-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2012/texmf-dist/font
+s/type1/public/lm/lmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pub
+lic/lm/lmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr1
+7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2012/texmf
+-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2012/texmf-dist/font
+s/type1/public/lm/lmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
+blic/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmt
+t12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb>
+Output written on MasterThesis.pdf (35 pages, 447157 bytes).
+PDF statistics:
+ 720 PDF objects out of 1000 (max. 8388607)
+ 657 compressed objects within 7 object streams
+ 202 named destinations out of 1000 (max. 500000)
+ 462 words of extra memory for PDF output out of 10000 (max. 10000000)
+

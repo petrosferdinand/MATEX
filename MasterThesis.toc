@@ -1,0 +1,57 @@
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
+\contentsline {section}{\numberline {2}State of the Art}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Previous Theses}{4}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}UTouch3D}{5}{subsubsection.2.1.1}
+\contentsline {subsection}{\numberline {2.2}Omicron project and SAGE2}{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Kinoogle}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Other software}{6}{subsection.2.4}
+\contentsline {section}{\numberline {3}Motivation and Problem Statement}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Motivation}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Problem Statement}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}MoSCoW}{9}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}What must the program do?}{9}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}What should the program do?}{10}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}What could the program do?}{11}{subsubsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.4}What won't the program do?}{11}{subsubsection.3.3.4}
+\contentsline {section}{\numberline {4}Technical background and primordial software}{12}{section.4}
+\contentsline {subsection}{\numberline {4.1}Definitions}{12}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Geometry and 3-D visualization}{13}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}OpenGL}{13}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Homogeneous transformations}{13}{subsubsection.4.2.2}
+\contentsline {subsection}{\numberline {4.3}Artifact Viewer}{14}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Structure and Functions}{14}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1} File compatibility}{14}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2} Menu}{15}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3} 3-D Visualization panel}{15}{subsubsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.4} Lighting}{15}{subsubsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.5} Rotation}{15}{subsubsection.4.4.5}
+\contentsline {subsubsection}{\numberline {4.4.6} Visual Enhancements}{16}{subsubsection.4.4.6}
+\contentsline {subsubsection}{\numberline {4.4.7} Annotations and Points}{16}{subsubsection.4.4.7}
+\contentsline {subsubsection}{\numberline {4.4.8} Mouse and Keyboard event handling}{16}{subsubsection.4.4.8}
+\contentsline {subsubsection}{\numberline {4.4.9} Keyboard shortcuts}{16}{subsubsection.4.4.9}
+\contentsline {section}{\numberline {5}SAVKiT}{16}{section.5}
+\contentsline {subsection}{\numberline {5.1}Concept}{17}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Stereoscopy Implementation}{17}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}New Keyboard Shortcuts}{17}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Touch Screen Enhancements}{18}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}Smart 3-D-TV Touchscreen Gestures}{18}{subsubsection.5.4.1}
+\contentsline {subsection}{\numberline {5.5}Kinect 2 Camera Gesture implementation}{20}{subsection.5.5}
+\contentsline {subsubsection}{\numberline {5.5.1}Rotate}{21}{subsubsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.2}Scale}{22}{subsubsection.5.5.2}
+\contentsline {subsubsection}{\numberline {5.5.3}Translate}{23}{subsubsection.5.5.3}
+\contentsline {subsubsection}{\numberline {5.5.4}Untracked or unknown states}{23}{subsubsection.5.5.4}
+\contentsline {section}{\numberline {6}Evaluation}{24}{section.6}
+\contentsline {section}{\numberline {7}Results}{24}{section.7}
+\contentsline {section}{\numberline {8}Concluding Remarks and future work}{24}{section.8}
+\contentsline {section}{Appendices}{27}{section*.7}
+\contentsline {section}{Appendix \numberline {A}code}{27}{Appendix.1.A}
+\contentsline {subsection}{\numberline {A.1}Stereo format Code}{27}{subsection.1.A.1}
+\contentsline {subsection}{\numberline {A.2}Kinect Rotation Code}{27}{subsection.1.A.2}
+\contentsline {section}{Appendix \numberline {B}Expert survey template}{29}{Appendix.1.B}
+\contentsline {section}{Appendix \numberline {C}Survey Handout}{30}{Appendix.1.C}
+\contentsline {subsection}{\numberline {C.1}Touchscreen}{30}{subsection.1.C.1}
+\contentsline {subsection}{\numberline {C.2}Kinect 2 Camera Gesture implementation}{30}{subsection.1.C.2}
+\contentsline {subsubsection}{\numberline {C.2.1}Rotate}{32}{subsubsection.1.C.2.1}
+\contentsline {subsubsection}{\numberline {C.2.2}Scale}{33}{subsubsection.1.C.2.2}
+\contentsline {subsubsection}{\numberline {C.2.3}Translate}{33}{subsubsection.1.C.2.3}
+\contentsline {subsubsection}{\numberline {C.2.4}Untracked or unknown states}{34}{subsubsection.1.C.2.4}

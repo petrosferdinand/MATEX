@@ -1,6 +1,7 @@
 \documentclass[12pt]{extarticle}
 \date{}
-\usepackage[clines,headsepline,autooneside,automark,markuppercase]{scrpage2} 
+\usepackage[clines,headsepline,autooneside,
+automark,markuppercase]{scrpage2} 
 \setheadsepline{1pt}
 %\setfootsepline{0.4pt}
 \ifoot{}\cfoot{\pagemark}\ofoot{}
@@ -8,30 +9,31 @@
 \vfuzz=20pt
 \hbadness=2000
 \vbadness=\maxdimen
-\pagestyle{scrheadings} 					% use plain for standard
+\pagestyle{scrheadings} % use plain for standard
 \usepackage{xcolor}
 \usepackage[utf8]{inputenc}
 \usepackage{cite}
-\usepackage{graphicx} 						%package to include graphics
-\usepackage{setspace} 						%package to set space between lines
-\usepackage{lscape} 							%package to rotate pages
-\usepackage{booktabs} 						%package for nice tables
+\usepackage{graphicx} 	%package to include graphics
+\usepackage{setspace} 	%package to set space between lines
+\usepackage{lscape} 	%package to rotate pages
+\usepackage{booktabs} 	%package for nice tables
 \usepackage{amsmath,
-amsfonts,amssymb} 							%LateX mathformulas and typography
+amsfonts,amssymb}		%LateX mathformulas and typography
 \usepackage{pifont}
-\usepackage{listings}							%for code snippets
-\usepackage{array}							%extends array and tabular environments
-\usepackage{textcomp}						%package support of the text companion fonts
-\usepackage{exscale} 						%package for nice summation sign 
-\usepackage{tabularx} 						%package for column width and linebreaks in table cells
-\usepackage{ragged2e} 						%less raggedness commands \flushleft(right)
-\usepackage{multirow}    	%package to combine cells in tables
-\usepackage{eurosym} 						%package to get eurosymbol per \euro
-\usepackage{enumerate}						%package to make nice lists
-\usepackage{ulem}								%package for uline
-\usepackage{wasysym}							%package for weird symbols and geometric figs
-\usepackage{hyperref}						%package for clickable TOC
-\usepackage[title,titletoc,toc]{appendix} %package for appendix
+\usepackage{listings}	%for code snippets
+\usepackage{array}		%extends array and tabular environments
+\usepackage{textcomp}	%package support of the text companion fonts
+\usepackage{exscale}	%package for nice summation sign 
+\usepackage{tabularx}	%package for column width and linebreaks in table cells
+\usepackage{ragged2e}	%less raggedness commands \flushleft(right)
+\usepackage{multirow}	%package to combine cells in tables
+\usepackage{eurosym} 	%package to get eurosymbol per \euro
+\usepackage{enumerate}	%package to make nice lists
+\usepackage{ulem}		%package for uline
+\usepackage{wasysym}	%package for weird symbols and geometric figs
+\usepackage{hyperref}	%package for clickable TOC
+\usepackage[title,
+titletoc,toc]{appendix} %package for appendix
 \usepackage{cleveref}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -77,8 +79,10 @@ amsfonts,amssymb} 							%LateX mathformulas and typography
 \newcommand{\Linie}{\rule{\linewidth}{0.6mm}}
 
 %Shortcut for table in the Evaluation
-\newcommand{\rating}{\begin{tabular*}{0.85\textwidth}{| p{\textwidth/4} | p{\textwidth/16} | p{\textwidth/16} | p{\textwidth/16} | p{\textwidth/4} |}\hline1 (totally disagree)&2&3&4&5 (totally agree)\\
-%\hline & & & & \\
+\newcommand{\rating}{\begin{tabular*}{0.85\textwidth}
+{| p{\textwidth/4} | p{\textwidth/16} | p{\textwidth/16}
+ | p{\textwidth/16} | p{\textwidth/4} |}\hline1 (totally disagree)
+ &2&3&4&5 (totally agree)\\
 \hline\end{tabular*}}
 %Shortcut ends
 
@@ -88,17 +92,19 @@ amsfonts,amssymb} 							%LateX mathformulas and typography
 \center
 \textsc{\LARGE Universität zu Köln}\\[1.5cm]
 \textsc{\Large Masterarbeit}\\[0.5cm] 
-\textsc{\large 3D-Interaktion und Visualisierung in der Wissenschaft}\\[0.5cm] 
+\textsc{\large 3D-Interaktion und Visualisierung
+ in der Wissenschaft}\\[0.5cm] 
 \HRule \\[0.4cm]
 { \Large \bfseries 
-SAVKiT: Design of an interface for visualization and manipulation of 3-D Stereograms}\\[0.4cm]
+SAVKiT: Visualization and Manipulation of Stereographic 3-D Objects}\\[0.4cm]
 \HRule \\[1.5cm]
 \begin{minipage}{0.4\textwidth}
 \begin{flushleft} \large
 \emph{Presented by:}\\
 Pedro Fernando \\
 Arizpe Gomez\\ 
-		Matrikelnummer:\\5500958 
+\emph{Matrikelnummer:}\\
+5500958 
 \end{flushleft}
 \end{minipage}
 ~
@@ -110,7 +116,7 @@ Prof. Dr. Lang
 Dipl.-Inf. Daniel Wickeroth
 \end{flushright}
 \end{minipage}\\[4cm]
-{\large 17.03.2016}\\[3cm] 
+{\large 17.05.2016}\\[3cm] 
 \vfill 
 \end{titlepage}
 \tableofcontents
@@ -120,45 +126,43 @@ The main purpose of this project is to implement a user interface for the visual
 
 \section{State of the Art}\label{sec:Soa}
 %++ related work: Was machen sie, warum ist das scheisse und warum ist meins besser
-This section describes the current state of the science regarding stereoscopic 3-D visualization and manipulation and Natural User Interfaces (NUIs)
+This section describes the current state of the science regarding stereoscopic 3-D visualization, manipulation and Natural User Interfaces (NUIs)
 
-In his book "A brave NUI World"\cite{NUIWorld}, Wigdor makes a clear differentiation between the possibilities that specialized hardware can offer and the factual naturality of the interaction. He states that the hardware itself doesn't define or guarantee a natural user interface, it just gives the opportunity to create one. 
+In his book "A brave NUI World"\cite{NUIWorld}, Wigdor makes a clear differentiation between the possibilities that specialized hardware can offer and the factual naturality of the interaction. He states that the hardware itself doesn't define or guarantee a NUI, it just gives the opportunity to create one. 
 
-Moreover, the natural user interface depends on the design of the interface and its capability of adapting and applying new technologies to utilize human capabilities and empiric experience to apply adequately to the given contexts and tasks.
-
-%\begin{quotation}Input and output technologies offer us the opportunity to create a more natural user interface; they do not, in and of themselves, define or guarantee it. The natural user interface lies in the UI and experiences we create for use with those technologies and how we leverage the potential of new technologies to better mirror human capabilities, optimize the path to expert, apply to given contexts and tasks, and fulfill our needs."  \cite{NUIWorld}\end{quotation}
+Moreover, the characterization as NUI depends on the design of the interface and its capability of adapting and applying new technologies to utilize human capabilities and empiric experience to apply adequately to the given contexts and tasks.
 
 This differentiation is very important when attempting to create a NUI, since the hardware is just a tool that allows for better gesture implementation, but the adequate application and the implementation of intuitive gestures that ensure a natural functionality is indispensable.
 
 \subsection {Previous Theses}
-This subsection describes the work previously done by other students who also implemented and explored multi-touch and free hand gesture interaction for virtual reality (VR). It also introduces the general idea of the 3-D visualization software that was extended for this project, Artifact Viewer (AV), which is further explained in section \ref{sec:AV}.
+This subsection describes the work previously done by other students who also implemented and explored multi-touch and free hand gesture interaction for virtual reality (VR).
 
-\subsubsection {UTouch3D\cite{Bau10,Deli13}}
-Baumesberger designed and implemented a self-designed multi-touch screen that can display 3-D virtual objects through stereoscopy. He called it uTouch3D
+\subsubsection {UTouch3D}
+Baumesberger designed and implemented a self-designed multi-touch screen that can display 3-D virtual objects through stereoscopy. He called it uTouch3D\cite{Bau10,Deli13}.
 
 The touchscreen of the uTouch3D can theoretically track an unlimited number of fingers simultaneously. This feature offers the user a further possibility of interaction with virtual objects. UTouch3D's user interface exploits this possibility and allows the user to manipulate the visualization.
 
-The original version of the program is designed to allow the user to select, rotate, scale and translate the objects in the visualization through touch gestures. The user can switch between these interactions by changing the amount of fingers in the screen or the duration of contact of a single finger.
+The original version of the program \cite{Bau10} is designed to allow the user to select, rotate, scale and translate the objects in the visualization through touch gestures. The user can switch between these interactions by changing the amount of fingers in the screen or the duration of contact of a single finger.
 
 Despite its advantages, the uTouch3D also had a downside, since the touchscreen movements are still limited to a two dimensional plane and the displayed objects are in three dimensions, which makes it necessary to implement complex gestures to compensate the missing dimension.
 
-Furthermore, the finger tracking mechanism encountered some difficulties regarding the thickness of every individual finger and continuity of the tracking.
+Furthermore, the finger tracking mechanism encountered some difficulties regarding the thickness of every individual finger and continuity of the tracking, thus limiting the factual number of simultaneously detected fingers and restraining the theoretical functional possibilities.
 
-Delisavas enhanced the functionality of uTouch3D by incorporating free hand movements into the interface. These movements are read by a kinect camera 1.0. He modified the interface to accept touch, free hand and combinations of both movements. He also exploited the hand tracking function of the camera to improve the tracking accuracy of the touch screen.
+Delisavas \cite{Deli13}enhanced the functionality of uTouch3D by incorporating free hand movements into the interface. These movements are read by a kinect camera 1.0. He modified the interface to accept touch, free hand and combinations of both inputs. He also exploited the hand tracking function of the camera to improve the tracking accuracy of the touch screen.
 
 Nonetheless, the technical limitations of this camera narrowed the interaction possibilities. For example, that version of the camera could not yet quickly recognize if the hand was open or closed without excessive modifications and unreasonable computational effort.
 
-\subsection {Omicron project \cite{SAGE2}}
+\subsection {Omicron project and SAGE2}
 The Omicron project is a software from the Electronic Visualization Laboratory of the University of Illinois in Chicago. It is currently implemented in the CAVE2 environment, which combines features of the first version of the CAVE; a multiwall, stereoscopic visualization's environment; and tiled display walls (TDW).
 
-Omicron can receive data from several types of input, including touch overlays and motion tracking system. It is specially interesting because the touch overlays interface is based on the same touchscreen hardware as the project of this work, namely PQLabs Touchscreen.
+Omicron can receive data from several input types, including touch overlays and motion tracking system. It is specially interesting because the touch overlays interface is based on the same touchscreen hardware as the project of this work, namely PQLabs Touchscreen.
 
-%\begin{quotation} Omicron is capable of receiving data from different types of input devices including touch overlays, motion tracking systems, game controllers, and speech recognition tools. [...] Omicron then streams data from these heterogeneous devices in a uniform manner that the SAGE2 Server can interpret."\cite{SAGE2}\end{quotation}
+This software specializes in the integration of several input devices. Then it streams data from these heterogeneous devices in such a manner that the SAGE2 server can interpret\cite{SAGE2}. The software described in this work contains modules that serve this same purpose. Both projects allow the user to decide on his method of input, and hereby they offer more possibilities of interaction.
 
-This software specializes in the integration of several input devices that can be read by the same GUI. The software described in this work contains modules that serve this same purpose. Both projects allow the user to decide on his method of input, and hereby they offer more possibilities of interaction.
+However, the SAGE2 project focuses rather on the web-based collaboration than the visualization and manipulation of objects.
 
-\subsection {Kinoogle\cite{Kinoogle}}\label{subsec: kinoogle}
-Kinoogle is a natural interaction interface for Google Earth using Microsoft Kinect. It allows the user to control google earth through hand and full body gestures.\footnote{As this Kinoogle paper was written, only Kinect 1 camera was available in the market, therefore, the hand state function was not fully available} The user can pan, zoom, rotate tilt and jump to street view by using predefined body gestures that are conceptually similar to the gestures used by this project's software. (see subsection \ref{KinectGestures})
+\subsection {Kinoogle}\label{subsec: kinoogle}
+Kinoogle\cite{Kinoogle} is a natural interaction interface for Google Earth using Microsoft Kinect. It allows the user to control google earth through hand and full body gestures.\footnote{As this Kinoogle paper was written, only Kinect 1 camera was available in the market, therefore, the hand state function was not fully available} The user can pan, zoom, rotate, tilt and jump to street view by using predefined body gestures that are conceptually similar to the gestures used by this project's software. (see subsection \ref{KinectGestures})
 
 \subsection {Other software}
 The development of new software and hardware for 3-D object visualization and manipulation has been recently boosted by the appearance of head mounted devices (HMDs), like Oculus-Rift as an example for submersive virtual reality or Google Glasses and HoloLens for hybrid reality.
@@ -171,15 +175,13 @@ As a low-cost, highly portable solution, HMDs remain an intriguing option. From 
 
 A CAVE2 configuration can reach the visual acuity limit and fill the horizontal FOV, but does not fare quite so well with vertical coverage. \cite{NASA}
 \end{quotation}
-%%%proofread%%%
+
 \section{Motivation and Problem Statement}\label{sec:Mot}
 %TODO: complement with State of the art, be more concrete
-%purpose: public display-> museums-> natural interaction metaphores
-
-%TODO: Analysis of scenario, requirements for interaction technique
-This section formulates the problem and explains the motivation behind this project. As early as 1988, computer scientists recognized the importance of simple direct manipulation controllers. Chen et al. also outlined some application possibilities:
+\subsection{Motivation}
+This section explains the motivation behind this project. As early as 1988, computer scientists recognized the importance of simple direct manipulation controllers. Chen et al.(1988) also outlined some application possibilities:
 \begin{quotation}
-"Currently, simple direct manipulation controllers do not exist for 3-D object positioning. The design of such controllers could be important interface contributions for application environments such as manufacturing, architecture, and engineering design, which rely heavily on the display and control of three dimensions." \cite{3Don2D88}
+"Currently, simple direct manipulation controllers do not exist for 3-D object positioning. The design of such controllers could be important interface contributions for application environments such as manufacturing, architecture, and engineering design, which rely heavily on the display and control of three dimensions." \cite{3DOn2D88}
 \end{quotation}
 
 This statement elucidates the importance of the creation of newfangled input methods or even user interface concepts. These should give the user the feeling of continuity between his empiric experience of object manipulation and his interaction with the virtual objects. These characteristics equate those of a NUI.
@@ -188,12 +190,125 @@ In Wigdor's words, \cite{NUIWorld} Users naturally develop associations between 
 
 The essence of this project lies in the challenge of expanding the user's real world experience to the manipulation of virtual objects through natural movements. Notwithstanding that industry standards dictate most design canons for user interfaces, the pursuit of neoteric intuitive interaction possibilities is still worthwhile.
 
+%purpose: public display-> museums-> natural interaction metaphores
+%TODO: Analysis of scenario, one object. requirements for interaction technique.
+\subsection{Problem Statement}
+Virtual three-dimensional objects originating from design or 3-D scans are becoming increasingly common. As stated by Yuan et al. \cite{3DTV}, "The recent proliferation of stereoscopic three dimensional (3D) video technology has fostered a large body of research into 3D video capture, production, compression and delivery. However, little research has been dedicated to the design practices of stereoscopic 3D video interaction". Therefore, a need for adequate visualization manipulation possibilities has emerged.
+
+The specific purpose of this project is the design of a software that can cope with these visualization manipulation necessities taking advantage of several input possibilities.
+
+The concrete target scenario of this project is the visualization of a single virtual object.
+
+The main utilization potentiality of this project is the public display in museums and similar interaction environments, where the public can get a better and more interactive visualization experience.
+
+Another utilization opportunity is found on the didactic. Educational facilities could use this software as a tool for interactive learning, offering pupils an enhanced learning process.
+
+For example, this software can display anatomically correct organs as a stereogram, which would help life sciences students to assimilate better the visual information and expedite the learning process. As opposed to 2-d schemes and pictures, stereograms provide a sense of depth and the possibility to observe the object from all angles.
+
+For diagnosis purposes, this program could also be a great supporting tool for medical professionals, allowing for an effective and non invasive method of analysis.
+
+\subsection{MoSCoW}
+The functional requirements set for this project can be categorized according to the MoSCoW \cite{Moscow} prioritization method. This method suggests a differentiation between what the program must, should, could and won't do.
+
+There has been some criticism regarding this technique, due to its lack of precision concerning the guidelines for categorization. Wiegers \cite{Wiegers} states that this method lacks analysis of importance and urgency. However, for the purposes of this work, the consideration of forthcoming releases or a development time-box is unimportant, and therefore MoSCoW remains a suitable method.
+
+Naturally, most of the requirements for this software have been inherited from Laurentius work \cite{AV}
+
+\subsubsection{What must the program do?}
+\begin{enumerate}
+\item
+The program \textbf{must} be able to display a 3-D virtual object through stereoscopy.
+\item
+The program \textbf{must} be able to interpret 3-D scans in form of polygon and stereolitography file types.
+\item
+The program \textbf{must} accept three different types of input: mouse/keyboard, touchscreen and free hand movements.
+\item
+The user, using any of the three input methods \textbf{must} be able to rotate the displayed object and the camera in all directions, giving 3 DOF for rotation.
+\item
+The user, using any of the three input methods \textbf{must} be able to translate the displayed object in all directions, giving 3 DOF for translation.
+\item
+The visualization \textbf{must} be in perspective mode.
+\item
+The program \textbf{must} display a real-time visual feedback for all manipulation interactions.
+\item
+The program \textbf{must} give the option to display the object with or without color information from PLY files.
+\item
+The program \textbf{must} provide lighting by four spot lights whose intensity and position can be adjusted in all three spatial axes to generate the desired shadows, which are necessary for optimal visibility of the details of the object.
+\item
+The program \textbf{must} allow the user to save the view configuration of the object. This concerns in particular the rotation of the object and the camera; the zoom factor; the orientation and parameters of the lamps.
+\item
+The program \textbf{must} allow the user to rotate the camera exactly by one degree with special buttons to enable the capture of the usual 6-fold view (front, rear, left, right, up, down) for scientific publications.
+\item
+The software \textbf{must} be open source and the source code must be made accessible and can be changed, which is ensured by its own license, but also by that of the included libraries.
+\item
+The code \textbf{must} be sufficiently commented to allow future expansion by any other programmers.
+\end{enumerate}
+
+\subsubsection{What should the program do?}
+\begin{enumerate}
+\item
+The program \textbf{should} be able to display the width, height and thickness of the object in millimeters.
+\item
+The program \textbf{should} give the user the option to display overlapping layers of the object with additional information. For example, automatically detected edges or depressions of the object.
+\item
+The program \textbf{should} give the option to tack a note at any point on the surface of the displayed object. Its textual content stands on the left edge of the window and a line connects the note to the point on the surface to which the annotation is associated.
+\item
+The program \textbf{should} give the option to display or hide any note texts, if any exist.
+\item
+The program \textbf{should} be able to store the contents of the 3D display area as an image file at all times (Screenshot).
+\end{enumerate}
+
+\subsubsection{What could the program do?}
+\begin{enumerate}
+\item
+The program \textbf{could} include gestures that isolate interaction types, for example, the user could scale the object with a specific gesture.
+\item
+The program \textbf{could} include a status bar to report the current state of interaction to the user.
+\end{enumerate}
+
+\subsubsection{What won't the program do?}
+\begin{enumerate}
+\item
+The program \textbf{won't} include gestures that require a combination of input types.
+\item
+The program \textbf{won't} not read nor save the current position of the table.
+\item
+The user \textbf{won't} receive tactile feedback.
+\item
+The program \textbf{won't} include tracking for wearable pointers.
+\item
+The program \textbf{won't} offer the possibility to alter the object's nodes nor edges.
+\end{enumerate}
+
+The implementation of gestures that combine several input types has been excluded to maintain the smoothness of the simulation and to avoid tracking inconsistencies between input devices. The position of the table and the referencing of hand and body positions relative to it has been intentionally left out to reduce error proneness and to allow the user to start the interaction anywhere.
+
 \section{Technical background and primordial software}\label{sec:AV}
 %define gesture (scholar: gesture, position, signal)
+\subsection{Definitions}
+Due to the fact that throughout the literature not all definitions are uniform, the definition of some central concepts need to be specified for the specific purposes of this work.
+
+\emph{Direct Manipulation:} Back in the 70's, direct manipulation was understood as the possibility to interact "directly" with the windows on the screens using the mouse. Actions such as rotating, dragging and moving would be considered as direct manipulation.
+
+In the 80's, Ben Shneiderman from the University of Maryland \cite{DirManSh} cited display editors, primitive video games and even programming of industrial robots to replicate human actions as examples for direct manipulation.
+
+Later on, as the first touch screens appeared, this concept evolved in meaning, redefined to be the interaction with objects "directly" underneath the fingers.
+
+Considering this, the definition of direct manipulation used in this work is:
+\begin{quotation}
+An interaction between the user and the visualization that translates the movements of the first directly into an appropriate and proportional transformation of the second with immediate visual feedback.
+\end{quotation}
+
+\emph{Visualization:} Foley and Ribarsky suggest a definition of visualization that coincides with the connotation of this work: \cite{FoleyVisualization}
+
+\begin{quotation}A useful definition of visualization might be the binding (or mapping) of data to a representation that can be perceived. The types of binding could be visual, auditory, tactile, etc. or a combination of these
+\end{quotation}
+\emph{Gesture} In accordance to George and Blake, the definition of gesture referred to in this work is: "Gestures are metaphors for discrete, indirect, intelligent interaction" \cite{GestureDef}. More specifically, free hand gestures are defined as specific body positions and signals that can be interpreted by the hardware and translated into an information stream that triggers certain procedures within the simulation.
+
 \subsection {Geometry and 3-D visualization}\label{subsec: geo}
 The typical human-computer-interaction takes place through 2-D displays, therefore an optical illusion is necessary in order to visualize 3-D virtual objects and give the impression of depth. This illusion is called a stereogram.
+
 \subsubsection {OpenGL}\label{subsec{OGL}}
-Monitors and projectors can only display a finite number of picture elements (pixels) per frame.  Therefore, many homogeneous transformation, projection and clipping operations are necessary to enhance the visualization experience. Hereby, a graphics library becomes an essential tool for visualization.
+Monitors and projectors can only display a finite number of picture elements (pixels) per frame. Therefore, many homogeneous transformation, projection and clipping operations are necessary to enhance the visualization experience. Hereby, a graphics library becomes an essential tool for visualization.
 
 OpenGL enables a simplified implementation that includes all the necessary mechanisms to deal with geometry; through a visualization frustum, stereoscopy i.e. stereopsis, projection, perspective, coloring, opaqueness, shading, and buffering; in the form of predefined concepts, operations and variables inside a graphics library.
 
@@ -204,31 +319,31 @@ Now let $\Vie\in \R ^{4\times 4}$ be the View Matrix. This Matrix is also a homo
 
 Finally, let $\Pro\in \R ^{4\times 4}$ be the Projection Matrix. Since the main purpose of this project is to visualize objects and not to realize measurements, the most suitable choice for $\Pro$ is a perspective transformation.
 
-The successive multiplication of $\Mod, \Vie$ and $\Pro$  results on the MVP matrix, which can be processed very efficiently by the graphic processing unit (GPU) giving room to a smooth and continuous visualization throughout the interaction.
+The successive multiplication of $\Mod, \Vie$ and $\Pro$ results on the MVP matrix, which can be processed very efficiently by the graphic processing unit (GPU) giving room to a smooth and continuous visualization throughout the interaction.
 
 \subsection{Artifact Viewer}
-This subsection describes the original structure, functionality and form of the Artifact Viewer program (AV) which was the primordial\footnote{Primordial: That constitutes the origin or starting point from which something else is derived or developed, or on which something else depends; fundamental, basic; elemental.\cite{oed}} software of this project. The AV is a visualization software that can read polygon (PLY) and STereoLithography (STL) files. The objects were displayed inside a Qt-based GUI on a monochromatic background.
+This subsection describes the original structure, functionality and form of the Artifact Viewer program (AV) which was the primordial\footnote{Primordial: That constitutes the origin or starting point from which something else is derived or developed, or on which something else depends; fundamental, basic; elemental.\cite{OED}} software of this project\cite{AV}. The AV is a visualization software that can read polygon (PLY) and STereoLithography (STL) files. The objects were displayed inside a Qt-based GUI on a monochromatic or color gradient background.
 
 The original conception of the Artifact viewer was done with the purpose of devising a tool that could display archaeological objects in 3-D and give users the opportunity to manipulate several aspects of the visualization and also carry out measurements and annotations.
 
-However, this program still mapped the object into a two-dimensional representation and the input possibilities were limited to keyboard and mouse.
+However, this program still maps the object into a two-dimensional representation and the input possibilities were limited to keyboard and mouse.
 
-On the side bar the user has the possibility to interact with the configuration of the visualization and some mouse and keyboard events allowed for direct manipulation of the object.
+On the side bar the user has the possibility to interact with the configuration of the visualization and some mouse and keyboard events allowed further manipulation of the object.
 \subsection {Structure and Functions}
 	\subsubsection { File compatibility}
 	AV is able to read from two types of files, *.stl and *.ply. This is managed by two plugins that can interpret the data on the files and transform it into an object.
 	\subsubsection { Menu}
 	The top screen menu offers pre-programmed tasks in four categories: file, tools, options and help.
-	The file menu includes the options to open a new object in the visualization area and to save the current configuration of the visualization into an XML file.
-	The tools menu included only the option to make a screenshot of the current state of the visualization.
-	In the options menu, the user can change the background color and, in case the vertex colors usage is deactivated, the user can select a  color for the artifact.
-	In the help menu, the about button offers information about the current version and the author, and the help button opens the documentation of the program.
+	The \textbf{file} menu includes the options to open a new object in the visualization area and to save the current configuration of the visualization into an XML file.
+	The \textbf{tools} menu included only the option to make a screenshot of the current state of the visualization.
+	In the \textbf{options} menu, the user can change the background color and, in case the vertex colors usage is deactivated, the user can select a color for the artifact.
+	In the \textbf{help} menu, the about button offers information about the current version and the author, and the help button opens the documentation of the program.
 	\subsubsection { 3-D Visualization panel}
 	The visualization panel is the main part of the widget. Whenever a file is open, the virtual object is displayed.
 	\subsubsection { Lighting}
-	On the side menu, the user has the possibility to configure the lighting of the object. The shading model is based on "Phong shading". First of all, the first checkbox on the top left of this section, "use lightning" toggles the activation of lightning. The second one: "lights visible", on the top right, toggles the visibility of  of the lights ant the rotation circumference of the selected light. The program has four light sources that can be rotated around the object along these two circumferences. 
+	On the side menu, the user has the possibility to configure the lighting of the object. The shading model is based on "Phong shading". First of all, the first checkbox on the top left of this section, "use lightning" toggles the activation of lightning. The second one: "lights visible", on the top right, toggles the visibility of of the lights ant the rotation circumference of the selected light. The program has four light sources that can be rotated around the object along these two circumferences. 
 	
-	If "lights visible" is on, lights are displayed as small lamps in pyramid form. The drop-down menu under the "lights" title is used to select one of the four lights and enable its rotation and intensity  and distance modifications.
+	If "lights visible" is on, lights are displayed as small lamps in pyramid form. The drop-down menu under the "lights" title is used to select one of the four lights and enable its rotation and intensity and distance modifications.
 	\subsubsection { Rotation}
 	The next item on the sidebar allows the user to make a controlled rotation of the camera by the selected amount of degrees in the selected direction (up, down, left, right) or of the artifact, clockwise or counterclockwise.
 	\subsubsection { Visual Enhancements}
@@ -244,8 +359,10 @@ On the side bar the user has the possibility to interact with the configuration 
 \section{SAVKiT}\label{sec:Sav}
 %Unbedingt noch: Umfrage zu Bewegungen
 This section describes the ideological conception of the program and presents the modifications from the original AV program that lead to the Stereoscopic Artifact Viewer with Kinect and Touch (SAVKiT).
+
 \subsection {Concept}
 The main idea behind SAVKiT is the implementation of a NUI that allows the user to execute all homogeneous manipulations described in \ref{subsubsec Hom}, namely rotation, scaling and translating through several input methods, allowing the user to choose the most adequate for his intention.
+
 A very important characteristic of NUI is the intuitiveness of the movements. On touch screens, some movements have pushed through as industry standards, like pinch to shrink and split to enlarge. However, 3-D direct manipulation is still developing. Therefore, gestures and movements are also still maturing. Nevertheless, the movements and free hand manipulation possibilities considered in this project seem to be in accordance to other previous works, like Kinoogle \cite{Kinoogle}, as mentioned in subsection \ref{subsec: kinoogle}.
 
 The program is designed to give the user the impression of being able to grab the object in the air and manipulate it in different ways, allowing for an intuitive translation of movements into visual feedback.
@@ -278,7 +395,7 @@ This subsection contains the gestures that AV can interpret from the touchscreen
 When a first finger touches the screen, the touchscreen coordinates are mapped to the widget coordinates where the object is displayed. If the mapped coordinates are inside of the widget, the touchscreen interaction begins. Successive fingers activate other functions, and if a finger leaves the screen, the interaction adapts to the new quantity of fingers on the touch screen. If no fingers are left, the touch screen interaction comes to an end.
 
 \subsubsection* {One finger interaction}
-If there is only one finger on the screen, then the user can change the position of the camera along the X and Y axes, giving the impression that the object is moving in the same direction as the finger on the screen.
+If there is only one finger on the screen, then the user can change the position of the camera along the X and Y axes, giving the impression that the whole scenario is moving in the same direction as the finger on the screen.
 
 Let $F_{1,t}=\begin{pmatrix} x_{1,t}\\y_{1,t}\\ \end{pmatrix} \in \R^2, t\in \Z$ be the initial finger position at frame t with $(x,y)$ coordinates $(x_{1,t},y_{1,t})$ and let $$\Delta F_{1,t}=\begin{pmatrix} \Delta x_{1,t}\\\Delta y_{1,t}\\ \end{pmatrix}=\begin{pmatrix} x_{1,t}-x_{1,t-1}\\y_{1,t}-y_{1,t-1}\\ \end{pmatrix}$$ be the finger displacement. Now let $\mathcal Oc_t$ be the origin of the camera at frame $t$. Then, the movement of the camera is calculated by:
 $$\mathcal Oc_{t+1}=\mathcal Oc_t+\begin{pmatrix}\frac{-\Delta x }{6.3}\times\frac {CDO}{150}\\\frac{\Delta y }{6.3}\times\frac {CDTO}{150}\end{pmatrix}$$
@@ -309,14 +426,14 @@ $$\begin{array}{c}
 where $\mathcal F$ is applied to all coordinates received from the kinect camera in order for them to match the coordinates on the visualization environment.
 
 The Kinect Camera 2.0 has the capability of recognizing the state of the hands. It can differentiate between a closed, open and lasso positions. (see Figure \ref{fig: OCL}).
-\begin{figure}[h!]
-\includegraphics[scale=0.5]{Images/HandStates.png}
+\begin{figure}[ht!]
+\includegraphics[scale=1.5]{Images/KinectHandStates.png}
 \caption{Kinect Hand States depiction}
 \label{fig: OCL}
 \end{figure}\\
 In their Microsoft Kinect natural user interface for Google Earth navigation, Boulos et al. \cite{Kinoogle} distribute the three visualization manipulation possibilities; namely rotate, scale and translate (RST); among two free hand gestures. Rotate and scale are executed with two closed hands and translation (pan) is done with one hand open and the other one closed. The interaction design of this project follows this example and extends it to isolate the scaling interaction into a third hand state, i.e. lasso, and offers two possibilities for translation.
 
-In addition, the attempts to implement all three visualization manipulations into one gesture resulted in a turbulent interaction with faulty visual feedback and great error susceptibility, despite the utilization of a Kalman filter.
+In addition, the attempts to implement all three visualization manipulations into one gesture resulted in an unstable interaction with faulty visual feedback and great error susceptibility, despite the utilization of a Kalman filter.
 
 Kinect interaction can be activated by holding both hands open for two seconds. Once the interaction is initialized, the following manipulations are possible:
 
@@ -341,13 +458,13 @@ $$s_t=\frac{D_{t-1}}{D_t}, t\geq 1$$
 Once again, to ensure the smoothness of the rotation and to avoid abrupt changes, scaling factors outside of the tolerance borders are ignored, meaning that only if $0.75<s_t<1.5$, the scaling takes place.
 
 
-\subsubsection {Translate} The left hand up and open, the right one closed for 2 seconds starts a homogeneous translation of the model matrix, whereas the right hand's change of position determines the translation of the artifact,  and the left one works as the "signal", meaning that the movement stays on as long as the left hand remains open, or until the right hand opens
+\subsubsection {Translate} The left hand up and open, the right one closed for 2 seconds starts a homogeneous translation of the model matrix, whereas the right hand's change of position determines the translation of the artifact, and the left one works as the "signal", meaning that the movement stays on as long as the left hand remains open, or until the right hand opens
 
 Let $R_t$ and $L_t$ be once again defined as above. The translation vector $\Delta_r\in \R^3$ applied to the Artifact Matrix is determined by:
 $$\Delta_r=R_{t-1}-R_t, t\geq 1$$
 Anew, all previous rotations of the Artifact Matrix are ignored to guarantee an intuitive interaction. The object moves always in the same direction as the hand of the user.
 
-The right hand up and open, the left one closed for 2 seconds starts a homogeneous translation of the projection matrix, where the left hand's change of position determines the translation of the projection,  and the left one works as the "signal", meaning that the movement stays on as long as the right hand remains open, or until the left hand opens.
+The right hand up and open, the left one closed for 2 seconds starts a homogeneous translation of the projection matrix, where the left hand's change of position determines the translation of the projection, and the left one works as the "signal", meaning that the movement stays on as long as the right hand remains open, or until the left hand opens.
 
 The translation vector $\Delta_l\in \R^3$ applied to the projection Matrix is determined by:
 $$\Delta_l=L_{t-1}-L_t, t\geq 1$$
@@ -356,7 +473,7 @@ Similar to the model translation, the projection follows the movement direction 
 \subsubsection {Untracked or unknown states} If the position of both hands has not been tracked for 5 seconds or if the state of the hand has been unknown for 10 seconds, then the interaction with the kinect camera stops.\footnote{unknown and "not Tracked" states just report approximate coordinates} 
 
 \section{Evaluation} \label{sec:Eval}
-The evaluation of this project was in form of a consultation and survey of 10 experts  to assess the functionality, usability and intuitiveness of the program. A template of this survey can be found on Appendix \ref{app:survey}\cite{QDsus}
+The evaluation of this project was in form of a consultation and survey of 10 experts to assess the functionality, usability and intuitiveness of the program. A template of this survey can be found on Appendix \ref{app:survey}\cite{QDsus}
 
 \section{Results}\label{sec:Res}
 This section presents the results of the previously mentioned survey.
@@ -370,23 +487,23 @@ This section includes a small summary of the thesis, states adequate conclusions
 \section{code}
 \subsection {Stereo format Code}\label{app:StereoFormat}
 \begin{lstlisting}
-    QGLFormat stereoFormat;
-    stereoFormat.setSampleBuffers(true);
-    stereoFormat.setStereo(true);
-    this->setFormat(stereoFormat);
+QGLFormat stereoFormat;
+stereoFormat.setSampleBuffers(true);
+stereoFormat.setStereo(true);
+this->setFormat(stereoFormat);
 \end{lstlisting}
 \subsection {Kinect Rotation Code}\label{app:codeRot}
 \begin{lstlisting}
 //refresh hand positions
  if(!mano.isLeft)
  {
-     m_kNewRightRotPos=QVector3D((qreal)mano.x,
-     (qreal)-mano.z,(qreal)mano.y);
+ m_kNewRightRotPos=QVector3D((qreal)mano.x,
+ (qreal)-mano.z,(qreal)mano.y);
  }
  if(mano.isLeft)
  {
-     m_kNewLeftRotPos=QVector3D((qreal)mano.x
-     ,(qreal)-mano.z,(qreal)mano.y);
+ m_kNewLeftRotPos=QVector3D((qreal)mano.x
+ ,(qreal)-mano.z,(qreal)mano.y);
  }
  //draw new rotation line
  m_kNewRotVec=m_kNewRightRotPos-m_kNewLeftRotPos;
@@ -395,20 +512,20 @@ This section includes a small summary of the thesis, states adequate conclusions
  m_kOldRotVec.normalized(),m_kNewRotVec.normalized()
  ) )* 180.0f / PI
  //get axis
-      m_axis = QVector3D::crossProduct(m_kOldRotVec.normalized(),
-     m_kNewRotVec.normalized());
+ m_axis = QVector3D::crossProduct(m_kOldRotVec.normalized(),
+ m_kNewRotVec.normalized());
 // get ScaleFactor
 m_kScFactor=m_kNewRotVec.length()/m_kOldRotVec.length();
  //rotate by axis and angle
  if(m_KRotAngle< 30 | | m_KRotAngle>330)
  {
-     m_MatrixArtefact.translate(m_model->m_centerPoint);
-     m_MatrixArtefact.translate(m_camOrigin);
-     m_axis = m_MatrixArtefact.inverted().mapVector(m_axis)(*\label{lineDerotate}*)
-     m_MatrixArtefact.rotate(m_KRotAngle,m_axis.normalized());
-     m_MatrixArtefact.scale(m_kScFactor);
-     m_MatrixArtefact.translate(-m_camOrigin);
-     m_MatrixArtefact.translate(-m_model->m_centerPoint);
+m_MatrixArtefact.translate(m_model->m_centerPoint);
+m_MatrixArtefact.translate(m_camOrigin);
+m_axis = m_MatrixArtefact.inverted().mapVector(m_axis)(*\label{lineDerotate}*)
+m_MatrixArtefact.rotate(m_KRotAngle,m_axis.normalized());
+m_MatrixArtefact.scale(m_kScFactor);
+m_MatrixArtefact.translate(-m_camOrigin);
+m_MatrixArtefact.translate(-m_model->m_centerPoint);
  }
 
  updateGL();
@@ -421,7 +538,7 @@ m_kScFactor=m_kNewRotVec.length()/m_kOldRotVec.length();
 \pagebreak{}
 \section{Expert survey template}\label{app:survey}
 \begin{center}
-Gender:M/F\ \ \ Age:\_\_\_      Occupation (Major for students):\_\_\_\_\_\_\_\_\_\_
+Gender:M/F\ \ \ Age:\_\_\_ Occupation (Major for students):\_\_\_\_\_\_\_\_\_\_
 \begin{enumerate}
 \item I think that I would like to use this system frequently
 
@@ -445,18 +562,88 @@ Gender:M/F\ \ \ Age:\_\_\_      Occupation (Major for students):\_\_\_\_\_\_\_\_
 \item I would imagine that most people would learn to use this system very quickly
 
 \rating
-\item  I found the system very cumbersome to use
+\item I found the system very cumbersome to use
 
 \rating
-\item  I felt very confident using the system
+\item I felt very confident using the system
 
 \rating
-\item  I needed to learn a lot of things before I could get going with this system
+\item I needed to learn a lot of things before I could get going with this system
 
 \rating
 \end{enumerate}
 \end{center}
 Thank you very much for your input.
 \pagebreak{}
+\section{Survey Handout}\label{app:Handout}
+\begin{center}\begin{Huge}
+SAVKiT: Stereographic Artifact Viewer with Kinect and Touch
+\end{Huge}\end{center}
+\subsection{Touchscreen}
+\emph{One finger} on the screen moves the camera away from your finger, giving the impression that you are moving the world.\\
+\emph{Two fingers} on the screen activate zooming and z-axis rotation simultaneously. Pinch to zoom and turn to rotate.
+
+If there are three or more fingers on the screen and they are moving in the same direction, a simulation of the trackball movement is initialized. Depending on the mode set for the trackball, the object follows a 3-D rotation as a sphere or in the plane. The speed of the trackball movement is divided by the number of fingers on the screen.
+
+Let $F_{i,t}$ be defined as above. Let n be the number of fingers touching the screen, then the position of the pointer of the trackball movement is determined by:
+$$\sum_{i=1}^n \frac{1}{n}F_{i,t}$$
+
+\subsection {Kinect 2 Camera Gesture implementation}\label{KinectGestures}
+Most current video games and applications for Kinect generate a pointer as an interaction dummy for the virtual world. SAVKiT uses relative position data, which means that the user can start interaction anywhere in the kinect camera space and the movement will be calculated from the relative position of the hands from frame to frame.
+
+The program receives the coordinates of the hand position given by the kinect camera and transforms them to fit the visualization coordinates' orientation. Since the screen is used in an horizontal position, the following transformation is required:
+$$\begin{array}{c}
+\mathcal F: \R^3\to R^3; \\
+\mathcal F:\begin{pmatrix} x\\y\\z\end{pmatrix}\mapsto \begin{pmatrix} x\\-z\\y\end{pmatrix}\end{array}$$
+where $\mathcal F$ is applied to all coordinates received from the kinect camera in order for them to match the coordinates on the visualization environment.
+
+The Kinect Camera 2.0 has the capability of recognizing the state of the hands. It can differentiate between a closed, open and lasso positions. (see Figure \ref{fig: OCL}).
+\begin{figure}[ht!]
+\includegraphics[scale=1.5]{Images/KinectHandStates.png}
+\caption{Kinect Hand States depiction}
+\label{fig: OCL}
+\end{figure}\\
+In their Microsoft Kinect natural user interface for Google Earth navigation, Boulos et al. \cite{Kinoogle} distribute the three visualization manipulation possibilities; namely rotate, scale and translate (RST); among two free hand gestures. Rotate and scale are executed with two closed hands and translation (pan) is done with one hand open and the other one closed. The interaction design of this project follows this example and extends it to isolate the scaling interaction into a third hand state, i.e. lasso, and offers two possibilities for translation.
+
+In addition, the attempts to implement all three visualization manipulations into one gesture resulted in an unstable interaction with faulty visual feedback and great error susceptibility, despite the utilization of a Kalman filter.
+
+Kinect interaction can be activated by holding both hands open for two seconds. Once the interaction is initialized, the following manipulations are possible:
+
+\subsubsection {Rotate}\label{subsubsec Rot}
+Both hands closed for 2 seconds start the rotation, until one or both hands are opened. The rotation is programmed with 6 degrees of freedom (DOF).
+
+The angle of the rotation is calculated by creating a vector between the point coordinates of both hands and then comparing its angle with the vector of the next frame by means of a dot product.
+
+Let $R_t\in \R^3$ represent the coordinates of the right hand at frame $t, t\in \Z$ and $L_t\in\R^3$ represent the coordinates of the left hand at frame $t$. Then, the \textbf{angle of rotation }$\theta_{kinect}\in [0, 360]$ in degrees is given by:
+\[\theta_{kinect}=\frac{180}{\pi}\cdot \arccos(<\overrightarrow{u}, \overrightarrow{v}>)\]
+And the \textbf{axis of rotation} by
+\[Axis=\overrightarrow{u}\times \overrightarrow{v}\]
+where $$\overrightarrow{u}=\frac{R_{t-1}-L_{t-1}}{\|R_{t-1}-L_{t-1}\|}\ , \ \overrightarrow{v}=\frac{R_t-L_t}{\|R_t-L_t\|}$$.
+At frame $t=0$ the initial positions of the hands are captured, therefore these formulas are valid for $t\geq 1$.
+
+To ensure a smooth interaction, all rotations with an angle of more than 10 degrees are ignored. Furthermore, the axis of rotation remains befitting to the visualization axes, meaning that previous rotations of the artifact matrix do not interfere with the direction of rotation. (see Appendix \ref{app:codeRot}, line \ref{lineDerotate})
+
+\subsubsection {Scale}\label{subsubsec Scale} If both hands have one finger up, recognized as lasso position by the kinect, for more than 2 seconds, the program initializes the scaling mode. The artifact can be proportionally scaled by changing the separation between hands while keeping the hand position.
+
+Let $R_t$ and $L_t$ be defined as in \ref{subsubsec Rot}. Then, let $D_t$ be the separation between the hands at frame $t$, defined by $D_t=R_{t}-L_{t}$. Herewith, the scaling factor $s_t\in \R$ between frames is calculated by:
+$$s_t=\frac{D_{t-1}}{D_t}, t\geq 1$$
+Once again, to ensure the smoothness of the rotation and to avoid abrupt changes, scaling factors outside of the tolerance borders are ignored, meaning that only if $0.75<s_t<1.5$, the scaling takes place.
+
+
+\subsubsection {Translate} The left hand up and open, the right one closed for 2 seconds starts a homogeneous translation of the model matrix, whereas the right hand's change of position determines the translation of the artifact, and the left one works as the "signal", meaning that the movement stays on as long as the left hand remains open, or until the right hand opens
+
+Let $R_t$ and $L_t$ be once again defined as above. The translation vector $\Delta_r\in \R^3$ applied to the Artifact Matrix is determined by:
+$$\Delta_r=R_{t-1}-R_t, t\geq 1$$
+Anew, all previous rotations of the Artifact Matrix are ignored to guarantee an intuitive interaction. The object moves always in the same direction as the hand of the user.
+
+The right hand up and open, the left one closed for 2 seconds starts a homogeneous translation of the projection matrix, where the left hand's change of position determines the translation of the projection, and the left one works as the "signal", meaning that the movement stays on as long as the right hand remains open, or until the left hand opens.
+
+The translation vector $\Delta_l\in \R^3$ applied to the projection Matrix is determined by:
+$$\Delta_l=L_{t-1}-L_t, t\geq 1$$
+
+Similar to the model translation, the projection follows the movement direction of the hand.
+\subsubsection {Untracked or unknown states} If the position of both hands has not been tracked for 5 seconds or if the state of the hand has been unknown for 10 seconds, then the interaction with the kinect camera stops.\footnote{unknown and "not Tracked" states just report approximate coordinates} 
+
+
 \end{appendices}
 \end{document}
