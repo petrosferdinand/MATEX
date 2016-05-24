@@ -1,57 +1,70 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{State of the Art}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Previous Theses}{section.2}% 3
-\BOOKMARK [3][-]{subsubsection.2.1.1}{UTouch3D}{subsection.2.1}% 4
-\BOOKMARK [2][-]{subsection.2.2}{Omicron project and SAGE2}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.3}{Kinoogle}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.4}{Other software}{section.2}% 7
-\BOOKMARK [1][-]{section.3}{Motivation and Problem Statement}{}% 8
-\BOOKMARK [2][-]{subsection.3.1}{Motivation}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.2}{Problem Statement}{section.3}% 10
-\BOOKMARK [2][-]{subsection.3.3}{MoSCoW}{section.3}% 11
-\BOOKMARK [3][-]{subsubsection.3.3.1}{What must the program do?}{subsection.3.3}% 12
-\BOOKMARK [3][-]{subsubsection.3.3.2}{What should the program do?}{subsection.3.3}% 13
-\BOOKMARK [3][-]{subsubsection.3.3.3}{What could the program do?}{subsection.3.3}% 14
-\BOOKMARK [3][-]{subsubsection.3.3.4}{What won't the program do?}{subsection.3.3}% 15
-\BOOKMARK [1][-]{section.4}{Technical background and primordial software}{}% 16
-\BOOKMARK [2][-]{subsection.4.1}{Definitions}{section.4}% 17
-\BOOKMARK [2][-]{subsection.4.2}{Geometry and 3-D visualization}{section.4}% 18
-\BOOKMARK [3][-]{subsubsection.4.2.1}{OpenGL}{subsection.4.2}% 19
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Homogeneous transformations}{subsection.4.2}% 20
-\BOOKMARK [2][-]{subsection.4.3}{Artifact Viewer}{section.4}% 21
-\BOOKMARK [2][-]{subsection.4.4}{Structure and Functions}{section.4}% 22
-\BOOKMARK [3][-]{subsubsection.4.4.1}{ File compatibility}{subsection.4.4}% 23
-\BOOKMARK [3][-]{subsubsection.4.4.2}{ Menu}{subsection.4.4}% 24
-\BOOKMARK [3][-]{subsubsection.4.4.3}{ 3-D Visualization panel}{subsection.4.4}% 25
-\BOOKMARK [3][-]{subsubsection.4.4.4}{ Lighting}{subsection.4.4}% 26
-\BOOKMARK [3][-]{subsubsection.4.4.5}{ Rotation}{subsection.4.4}% 27
-\BOOKMARK [3][-]{subsubsection.4.4.6}{ Visual Enhancements}{subsection.4.4}% 28
-\BOOKMARK [3][-]{subsubsection.4.4.7}{ Annotations and Points}{subsection.4.4}% 29
-\BOOKMARK [3][-]{subsubsection.4.4.8}{ Mouse and Keyboard event handling}{subsection.4.4}% 30
-\BOOKMARK [3][-]{subsubsection.4.4.9}{ Keyboard shortcuts}{subsection.4.4}% 31
-\BOOKMARK [1][-]{section.5}{SAVKiT}{}% 32
-\BOOKMARK [2][-]{subsection.5.1}{Concept}{section.5}% 33
-\BOOKMARK [2][-]{subsection.5.2}{Stereoscopy Implementation}{section.5}% 34
-\BOOKMARK [2][-]{subsection.5.3}{New Keyboard Shortcuts}{section.5}% 35
-\BOOKMARK [2][-]{subsection.5.4}{Touch Screen Enhancements}{section.5}% 36
-\BOOKMARK [3][-]{subsubsection.5.4.1}{Smart 3-D-TV Touchscreen Gestures}{subsection.5.4}% 37
-\BOOKMARK [2][-]{subsection.5.5}{Kinect 2 Camera Gesture implementation}{section.5}% 38
-\BOOKMARK [3][-]{subsubsection.5.5.1}{Rotate}{subsection.5.5}% 39
-\BOOKMARK [3][-]{subsubsection.5.5.2}{Scale}{subsection.5.5}% 40
-\BOOKMARK [3][-]{subsubsection.5.5.3}{Translate}{subsection.5.5}% 41
-\BOOKMARK [3][-]{subsubsection.5.5.4}{Untracked or unknown states}{subsection.5.5}% 42
-\BOOKMARK [1][-]{section.6}{Evaluation}{}% 43
-\BOOKMARK [1][-]{section.7}{Results}{}% 44
-\BOOKMARK [1][-]{section.8}{Concluding Remarks and future work}{}% 45
-\BOOKMARK [1][-]{section*.7}{Appendices}{}% 46
-\BOOKMARK [1][-]{Appendix.1.A}{Appendix code}{}% 47
-\BOOKMARK [2][-]{subsection.1.A.1}{Stereo format Code}{Appendix.1.A}% 48
-\BOOKMARK [2][-]{subsection.1.A.2}{Kinect Rotation Code}{Appendix.1.A}% 49
-\BOOKMARK [1][-]{Appendix.1.B}{Appendix Expert survey template}{}% 50
-\BOOKMARK [1][-]{Appendix.1.C}{Appendix Survey Handout}{}% 51
-\BOOKMARK [2][-]{subsection.1.C.1}{Touchscreen}{Appendix.1.C}% 52
-\BOOKMARK [2][-]{subsection.1.C.2}{Kinect 2 Camera Gesture implementation}{Appendix.1.C}% 53
-\BOOKMARK [3][-]{subsubsection.1.C.2.1}{Rotate}{subsection.1.C.2}% 54
-\BOOKMARK [3][-]{subsubsection.1.C.2.2}{Scale}{subsection.1.C.2}% 55
-\BOOKMARK [3][-]{subsubsection.1.C.2.3}{Translate}{subsection.1.C.2}% 56
-\BOOKMARK [3][-]{subsubsection.1.C.2.4}{Untracked or unknown states}{subsection.1.C.2}% 57
+\BOOKMARK [2][-]{subsection.1.1}{Definitions}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Multimodality}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{Modal redundancy}{subsection.1.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.1.3}{Modal specialization}{subsection.1.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.1.4}{Direct Manipulation}{subsection.1.1}% 6
+\BOOKMARK [3][-]{subsubsection.1.1.5}{Visualization}{subsection.1.1}% 7
+\BOOKMARK [3][-]{subsubsection.1.1.6}{Gesture}{subsection.1.1}% 8
+\BOOKMARK [3][-]{subsubsection.1.1.7}{Position}{subsection.1.1}% 9
+\BOOKMARK [2][-]{subsection.1.2}{Organization}{section.1}% 10
+\BOOKMARK [1][-]{section.2}{State of the Art}{}% 11
+\BOOKMARK [2][-]{subsection.2.1}{Previous Theses}{section.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.1.1}{UTouch3D}{subsection.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.2}{Omicron project and SAGE2}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.3}{Kinoogle}{section.2}% 15
+\BOOKMARK [2][-]{subsection.2.4}{Other software}{section.2}% 16
+\BOOKMARK [1][-]{section.3}{Motivation and Problem Statement}{}% 17
+\BOOKMARK [2][-]{subsection.3.1}{Motivation}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.2}{Problem Statement}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.3}{MoSCoW}{section.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.3.1}{What must the program do?}{subsection.3.3}% 21
+\BOOKMARK [3][-]{subsubsection.3.3.2}{What should the program do?}{subsection.3.3}% 22
+\BOOKMARK [3][-]{subsubsection.3.3.3}{What could the program do?}{subsection.3.3}% 23
+\BOOKMARK [3][-]{subsubsection.3.3.4}{What won't the program do?}{subsection.3.3}% 24
+\BOOKMARK [1][-]{section.4}{Technical background and primordial software}{}% 25
+\BOOKMARK [2][-]{subsection.4.1}{Geometry and 3-D visualization}{section.4}% 26
+\BOOKMARK [3][-]{subsubsection.4.1.1}{OpenGL}{subsection.4.1}% 27
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Homogeneous transformations}{subsection.4.1}% 28
+\BOOKMARK [2][-]{subsection.4.2}{Technology utilized}{section.4}% 29
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Stereography}{subsection.4.2}% 30
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Touchscreen}{subsection.4.2}% 31
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Time Of Flight Camera}{subsection.4.2}% 32
+\BOOKMARK [2][-]{subsection.4.3}{Artifact Viewer}{section.4}% 33
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Structure and Functions}{subsection.4.3}% 34
+\BOOKMARK [1][-]{section.5}{SAVKiT}{}% 35
+\BOOKMARK [2][-]{subsection.5.1}{Concept}{section.5}% 36
+\BOOKMARK [2][-]{subsection.5.2}{Stereoscopy Implementation}{section.5}% 37
+\BOOKMARK [2][-]{subsection.5.3}{New Keyboard Shortcuts}{section.5}% 38
+\BOOKMARK [2][-]{subsection.5.4}{Touch Screen Enhancements}{section.5}% 39
+\BOOKMARK [3][-]{subsubsection.5.4.1}{One finger interaction}{subsection.5.4}% 40
+\BOOKMARK [3][-]{subsubsection.5.4.2}{Two-finger interaction}{subsection.5.4}% 41
+\BOOKMARK [3][-]{subsubsection.5.4.3}{Three-finger interaction}{subsection.5.4}% 42
+\BOOKMARK [3][-]{subsubsection.5.4.4}{Four-finger interaction}{subsection.5.4}% 43
+\BOOKMARK [3][-]{subsubsection.5.4.5}{Five-finger interaction}{subsection.5.4}% 44
+\BOOKMARK [3][-]{subsubsection.5.4.6}{Six-finger interaction}{subsection.5.4}% 45
+\BOOKMARK [2][-]{subsection.5.5}{Kinect 2 Camera Gesture implementation}{section.5}% 46
+\BOOKMARK [3][-]{subsubsection.5.5.1}{Rotate}{subsection.5.5}% 47
+\BOOKMARK [3][-]{subsubsection.5.5.2}{Scale}{subsection.5.5}% 48
+\BOOKMARK [3][-]{subsubsection.5.5.3}{Translate}{subsection.5.5}% 49
+\BOOKMARK [3][-]{subsubsection.5.5.4}{Untracked or unknown states}{subsection.5.5}% 50
+\BOOKMARK [2][-]{subsection.5.6}{Technical difficulties}{section.5}% 51
+\BOOKMARK [1][-]{section.6}{Evaluation}{}% 52
+\BOOKMARK [1][-]{section.7}{Results}{}% 53
+\BOOKMARK [1][-]{section.8}{Concluding Remarks and future work}{}% 54
+\BOOKMARK [1][-]{section*.20}{Appendices}{}% 55
+\BOOKMARK [1][-]{Appendix.1.A}{Appendix code}{}% 56
+\BOOKMARK [2][-]{subsection.1.A.1}{Stereo format Code}{Appendix.1.A}% 57
+\BOOKMARK [2][-]{subsection.1.A.2}{Vertical Screen Code}{Appendix.1.A}% 58
+\BOOKMARK [2][-]{subsection.1.A.3}{Kinect Rotate Scale Code}{Appendix.1.A}% 59
+\BOOKMARK [1][-]{Appendix.1.B}{Appendix Expert survey template}{}% 60
+\BOOKMARK [1][-]{Appendix.1.C}{Appendix Survey Handout}{}% 61
+\BOOKMARK [2][-]{subsection.1.C.1}{Touchscreen}{Appendix.1.C}% 62
+\BOOKMARK [3][-]{subsubsection.1.C.1.1}{Four-finger interaction}{subsection.1.C.1}% 63
+\BOOKMARK [3][-]{subsubsection.1.C.1.2}{Five-finger interaction}{subsection.1.C.1}% 64
+\BOOKMARK [3][-]{subsubsection.1.C.1.3}{Six-finger interaction}{subsection.1.C.1}% 65
+\BOOKMARK [2][-]{subsection.1.C.2}{Kinect 2 Camera Gesture implementation}{Appendix.1.C}% 66
+\BOOKMARK [3][-]{subsubsection.1.C.2.1}{Rotate}{subsection.1.C.2}% 67
+\BOOKMARK [3][-]{subsubsection.1.C.2.2}{Scale}{subsection.1.C.2}% 68
+\BOOKMARK [3][-]{subsubsection.1.C.2.3}{Translate}{subsection.1.C.2}% 69
+\BOOKMARK [3][-]{subsubsection.1.C.2.4}{Untracked or unknown states}{subsection.1.C.2}% 70

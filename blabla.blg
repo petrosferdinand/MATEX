@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: blabla.aux
+The style file: ieeetr.bst
+Database file #1: MasterRef.bib
+Warning--I didn't find a database entry for "multimodality"
+Warning--can't use both volume and number fields in DirManSh
+Warning--empty journal in FoleyVisualization
+Warning--empty journal in HandRec
+Warning--empty year in Shneiderman
+You've used 20 entries,
+            1876 wiz_defined-function locations,
+            616 strings with 6692 characters,
+and the built_in function-call counts, 4657 in all, are:
+= -- 437
+> -- 178
+< -- 0
++ -- 69
+- -- 49
+* -- 320
+:= -- 682
+add.period$ -- 21
+call.type$ -- 20
+change.case$ -- 20
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 267
+empty$ -- 470
+format.name$ -- 49
+if$ -- 1134
+int.to.chr$ -- 0
+int.to.str$ -- 20
+missing$ -- 20
+newline$ -- 64
+num.names$ -- 20
+pop$ -- 76
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 150
+stack$ -- 0
+substring$ -- 214
+swap$ -- 90
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 46
+width$ -- 22
+write$ -- 190
+(There were 5 warnings)

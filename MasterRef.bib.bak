@@ -1,24 +1,80 @@
-@article{oed,
-  title={OED online},
-  author={Dictionary, Oxford English},
-  journal={Oxford University Press. http://www. oed. com, Accessed Nov},
-  volume={30},
-  pages={2006},
-  year={1989}
+@inproceedings{3DCurve,
+ author = {Palleis, Henri and Mickisch, Mirjam and Hussmann, Heinrich},
+ title = {A Concept for 3D Interaction on a Curved Touch Display},
+ booktitle = {Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems},
+ series = {CHI EA '15},
+ year = {2015},
+ isbn = {978-1-4503-3146-3},
+ location = {Seoul, Republic of Korea},
+ pages = {1163--1168},
+ numpages = {6},
+ url = {http://doi.acm.org/10.1145/2702613.2732856},
+ doi = {10.1145/2702613.2732856},
+ acmid = {2732856},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {3D interaction, curved display, indirect touch},
 }
 
-@article{moscow,
-  title={MoSCow Prioritisation},
-  author={Ash, Steve},
-  journal={DSDM Consortium},
-  year={2007}
+@INPROCEEDINGS{3DOn2D88,
+ author = {Chen, Michael and Mountford, S. Joy and Sellen, Abigail},
+ title = {A Study in Interactive 3-D Rotation Using 2-D Control Devices},
+ booktitle = {Proceedings of the 15th Annual Conference on Computer Graphics and Interactive Techniques},
+ series = {SIGGRAPH '88},
+ year = {1988},
+ isbn = {0-89791-275-6},
+ pages = {121--129},
+ numpages = {9},
+ url = {http://doi.acm.org/10.1145/54852.378497},
+ doi = {10.1145/54852.378497},
+ acmid = {378497},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {3-D graphics;I/O devices; input devices; interactive graphics; mouse;real-time graphics; rotation control; user performance; virtual controllers; virtual sphere},
 }
-@book{wiegers,
-  title={Software requirements},
-  author={Wiegers, Karl and Beatty, Joy},
+
+@INPROCEEDINGS{3DTV,
+  author={H. Yuan and J. Ćalić and A. Fernando and A. Kondoz}, 
+  booktitle={Multimedia and Expo (ICME), 2013 IEEE International Conference on}, 
+  title={Investigation and evaluation of pointing modalities for interactive stereoscopic 3D TV}, 
+  year={2013}, 
+  pages={1-6}, 
+  keywords={ISO standards;human computer interaction;interactive television;interactive video;mouse controllers (computers);three-dimensional television;3D video capture;3D video compression;3D video delivery;3D video production;ISO 9241-9 standard;interactive stereoscopic 3D TV;multidirectional tapping task;pointing modalities investigation;standard mouse-based interaction;stereoscopic 3D television;stereoscopic three dimensional video technology;virtual laser pointer;ISO standards;Laser applications;Mice;Stereo image processing;TV;Three-dimensional displays;Fitt's Law;ISO 9241-9;Interaction;Kinect;Pointing;Stereoscopic 3D;Wiimote}, 
+  doi={10.1109/ICME.2013.6607621}, 
+  ISSN={1945-7871}, 
+  month={July},
+}
+
+@article{AV,
+  title={Visualisierung Archäologischer Datensätze},
+  author={Dominic Michael Laurentius},
+  year={2014},
+  journal={Universität zu Köln, Diplomarbeit}
+}
+
+@article{Bau10,
+  title={uTouch3D: Multi-touch Interaction in Virtual Reality},
+  author={Baumesberger, Anton},
+  year={2010},
+  journal={Universität Koblenz Landau, Diplomarbeit}
+}
+
+@article{Deli13,
+  title={Freihändige Gesteninteraktion und Multi-Touch in Virtual Reality Umgebungen},
+  author={ Delisavas, Stavros},
   year={2013},
-  pages={320-321},
-  publisher={Pearson Education}
+  journal={Universität zu Köln, Diplomarbeit}
+}
+
+@inproceedings{DirManSh,
+  title={Direct manipulation: A step beyond programming languages},
+  author={Shneiderman, Ben},
+  booktitle={ACM SIGSOC Bulletin},
+  volume={13},
+  number={2-3},
+  pages={143},
+  year={1981},
+  organization={ACM}
 }
 
 @article{FoleyVisualization,
@@ -37,50 +93,113 @@
   year={2010}
 }
 
-@INPROCEEDINGS{Kinect, 
-author={A. Payne and A. Daniel and A. Mehta and B. Thompson and C. S. Bamji and D. Snow and H. Oshima and L. Prather and M. Fenton and L. Kordus and P. O'Connor and R. McCauley and S. Nayak and S. Acharya and S. Mehta and T. Elkhatib and T. Meyer and T. O'Dwyer and T. Perry and Vei-Han Chan and V. Wong and V. Mogallapu and W. Qian and Zhanping Xu}, 
-booktitle={Solid-State Circuits Conference Digest of Technical Papers (ISSCC), 2014 IEEE International}, 
-title={7.6 A 512 #x00D7;424 CMOS 3D Time-of-Flight image sensor with multi-frequency photo-demodulation up to 130MHz and 2GS/s ADC}, 
-year={2014}, 
-pages={134-135}, 
-keywords={CMOS image sensors;analogue-digital conversion;computer games;3D motion detection;3D time-of-flight image sensor;ADC;CMOS image sensor;Kinect motion sensor;Xbox 360 gaming console;Xbox One;ambient light invariant brightness image;amplitude modulated light;analog-digital converter;low motion blur;multifrequency photodemodulation;Arrays;CMOS integrated circuits;Cameras;Clocks;Dynamic range;Logic gates;Modulation}, 
-doi={10.1109/ISSCC.2014.6757370}, 
-ISSN={0193-6530}, 
-month={Feb},}
-
-@INPROCEEDINGS{3DTV, 
-author={H. Yuan and J. Ćalić and A. Fernando and A. Kondoz}, 
-booktitle={Multimedia and Expo (ICME), 2013 IEEE International Conference on}, 
-title={Investigation and evaluation of pointing modalities for interactive stereoscopic 3D TV}, 
-year={2013}, 
-pages={1-6}, 
-keywords={ISO standards;human computer interaction;interactive television;interactive video;mouse controllers (computers);three-dimensional television;3D video capture;3D video compression;3D video delivery;3D video production;ISO 9241-9 standard;interactive stereoscopic 3D TV;multidirectional tapping task;pointing modalities investigation;standard mouse-based interaction;stereoscopic 3D television;stereoscopic three dimensional video technology;virtual laser pointer;ISO standards;Laser applications;Mice;Stereo image processing;TV;Three-dimensional displays;Fitt's Law;ISO 9241-9;Interaction;Kinect;Pointing;Stereoscopic 3D;Wiimote}, 
-doi={10.1109/ICME.2013.6607621}, 
-ISSN={1945-7871}, 
-month={July},}
-
-
-@inproceedings{DirManSh,
-  title={Direct manipulation: A step beyond programming languages},
-  author={Shneiderman, Ben},
-  booktitle={ACM SIGSOC Bulletin},
-  volume={13},
-  number={2-3},
-  pages={143},
-  year={1981},
-  organization={ACM}
+@article{HandRec,
+  title={Recognizing hand gestures with Microsoft’s kinect},
+  author={Tang, Matthew},
+  publisher={Palo Alto: Department of Electrical Engineering of Stanford University},
+  year={2011}
 }
 
-@INPROCEEDINGS{SAGE2, 
-author={T. Marrinan and J. Aurisano and A. Nishimoto and K. Bharadwaj and V. Mateevitsi and L. Renambot and L. Long and A. Johnson and J. Leigh}, 
-booktitle={Collaborative Computing: Networking, Applications and Worksharing (CollaborateCom), 2014 International Conference on}, 
-title={SAGE2: A new approach for data intensive collaboration using Scalable Resolution Shared Displays}, 
-year={2014}, 
-pages={177-186}, 
-keywords={cloud computing;groupware;online front-ends;Google Hangouts;SAGE software;SAGE2;Skype;Web browser technology;Web-based collaboration systems;WebEx;cloud-based technology;collaborative applications;data intensive collaboration;desktop mirroring;remote collaboration;scalable resolution shared displays;video conferencing;Browsers;Collaboration;Real-time systems;Rendering (computer graphics);Servers;Synchronization;Cloud Technologies;Co-located Collaboration;Computer Supported Cooperative Work;Large Displays;Multi-user Interaction;Remote Collaboration;Window Manager}, 
-doi={10.4108/icst.collaboratecom.2014.257337}, 
-month={Oct},}
+@INPROCEEDINGS{Kinect, 
+  author={A. Payne and A. Daniel and A. Mehta and B. Thompson and C. S. Bamji and D. Snow and H. Oshima and L. Prather and M. Fenton and L. Kordus and P. O'Connor and R. McCauley and S. Nayak and S. Acharya and S. Mehta and T. Elkhatib and T. Meyer and T. O'Dwyer and T. Perry and Vei-Han Chan and V. Wong and V. Mogallapu and W. Qian and Zhanping Xu}, 
+  booktitle={Solid-State Circuits Conference Digest of Technical Papers (ISSCC), 2014 IEEE International}, 
+  title={7.6 A 512 #x00D7;424 CMOS 3D Time-of-Flight image sensor with multi-frequency photo-demodulation up to 130MHz and 2GS/s ADC}, 
+  year={2014}, 
+  pages={134-135}, 
+  keywords={CMOS image sensors;analogue-digital conversion;computer games;3D motion detection;3D time-of-flight image sensor;ADC;CMOS image sensor;Kinect motion sensor;Xbox 360 gaming console;Xbox One;ambient light invariant brightness image;amplitude modulated light;analog-digital converter;low motion blur;multifrequency photodemodulation;Arrays;CMOS integrated circuits;Cameras;Clocks;Dynamic range;Logic gates;Modulation}, 
+  doi={10.1109/ISSCC.2014.6757370}, 
+  ISSN={0193-6530}, 
+  month={Feb},
+}
 
+@article{Kinoogle,
+  title={Web GIS in practice X: a Microsoft Kinect natural user interface for Google Earth navigation},
+  author={Boulos, Maged N Kamel and Blanchard, Bryan J and Walker, Cory and Montero, Julio and Tripathy, Aalap and Gutierrez-Osuna, Ricardo},
+  journal={International journal of health geographics},
+  volume={10},
+  number={1},
+  pages={1},
+  year={2011},
+  publisher={BioMed Central}
+}
+
+@article{Moscow,
+  title={MoSCow Prioritisation},
+  author={Ash, Steve},
+  journal={DSDM Consortium},
+  year={2007}
+}
+
+@inproceedings{Multimodal,
+  title={Designing and Prototyping Multimodal Commands.},
+  author={Bourguet, Marie-Luce},
+  booktitle={INTERACT},
+  volume={3},
+  pages={717--720},
+  year={2003},
+  organization={Citeseer}
+}
+
+@Article{MSVTK,
+author="Kok, Arjan J. F.
+and van Liere, Robert",
+title="A multimodal virtual reality interface for 3D interaction with VTK",
+journal="Knowledge and Information Systems",
+year="2007",
+volume="13",
+number="2",
+pages="197--219",
+abstract="The object-oriented visualization Toolkit (VTK) is widely used for scientific visualization. VTK is a visualization library that provides a large number of functions for presenting three-dimensional data. Interaction with the visualized data is controlled with two-dimensional input devices, such as mouse and keyboard. Support for real three-dimensional and multimodal input is non-existent. This paper describes VR-VTK: a multimodal interface to VTK on a virtual environment. Six degree of freedom input devices are used for spatial 3D interaction. They control the 3D widgets that are used to interact with the visualized data. Head tracking is used for camera control. Pedals are used for clutching. Speech input is used for application commands and system control. To address several problems specific for spatial 3D interaction, a number of additional features, such as more complex interaction methods and enhanced depth perception, are discussed. Furthermore, the need for multimodal input to support interaction with the visualization is shown. Two existing VTK applications are ported using VR-VTK to run in a desktop virtual reality system. Informal user experiences are presented.",
+issn="0219-3116",
+doi="10.1007/s10115-007-0066-6",
+url="http://dx.doi.org/10.1007/s10115-007-0066-6"
+}
+
+
+
+@ARTICLE{NASA,
+  author = {{Fluke}, C.~J. and {Barnes}, D.~G.},
+  title = "{The Ultimate Display}",
+  journal = {ArXiv e-prints},
+  archivePrefix = "arXiv",
+  eprint = {1601.03459},
+  primaryClass = "astro-ph.IM",
+  keywords = {Astrophysics - Instrumentation and Methods for Astrophysics},
+  year = 2016,
+  month = jan,
+  adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160103459F},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{NUIWorld,
+  title={Brave NUI world},
+  author={Goth, Gregory},
+  journal={Communications of the ACM},
+  volume={54},
+  number={12},
+  pages={14--16},
+  year={2011},
+  publisher={ACM}
+}
+
+@article{OED,
+  title={OED online},
+  author={Dictionary, Oxford English},
+  journal={Oxford University Press. http://www. oed. com, Accessed Nov},
+  volume={30},
+  pages={2006},
+  year={1989}
+}
+@article{QDsus,
+  title={SUS-A quick and dirty usability scale},
+  author={Brooke, John and others},
+  journal={Usability evaluation in industry},
+  volume={189},
+  number={194},
+  pages={4--7},
+  year={1996},
+  publisher={London}
+}
 @INPROCEEDINGS{RST,
  author = {Reisman and Jason L. and Davidson and Philip L. and Han and Jefferson Y.},
  title = {A Screen-space Formulation for 2D and 3D Direct Manipulation},
@@ -99,92 +218,27 @@ month={Oct},}
  keywords = {constraints, direct manipulation, multi-touch, optimization, pressure},
 }
 
-
-@INPROCEEDINGS{3Don2D88,
- author = {Chen, Michael and Mountford, S. Joy and Sellen, Abigail},
- title = {A Study in Interactive 3-D Rotation Using 2-D Control Devices},
- booktitle = {Proceedings of the 15th Annual Conference on Computer Graphics and Interactive Techniques},
- series = {SIGGRAPH '88},
- year = {1988},
- isbn = {0-89791-275-6},
- pages = {121--129},
- numpages = {9},
- url = {http://doi.acm.org/10.1145/54852.378497},
- doi = {10.1145/54852.378497},
- acmid = {378497},
- publisher = {ACM},
- address = {New York, NY, USA},
- keywords = {3-D graphics;I/O devices; input devices; interactive graphics; mouse;real-time graphics; rotation control; user performance; virtual controllers; virtual sphere},
+@INPROCEEDINGS{SAGE2, 
+  author={T. Marrinan and J. Aurisano and A. Nishimoto and K. Bharadwaj and V. Mateevitsi and L. Renambot and L. Long and A. Johnson and J. Leigh}, 
+  booktitle={Collaborative Computing: Networking, Applications and Worksharing (CollaborateCom), 2014 International Conference on}, 
+  title={SAGE2: A new approach for data intensive collaboration using Scalable Resolution Shared Displays}, 
+  year={2014}, 
+  pages={177-186}, 
+  keywords={cloud computing;groupware;online front-ends;Google Hangouts;SAGE software;SAGE2;Skype;Web browser technology;Web-based collaboration systems;WebEx;cloud-based technology;collaborative applications;data intensive collaboration;desktop mirroring;remote collaboration;scalable resolution shared displays;video conferencing;Browsers;Collaboration;Real-time systems;Rendering (computer graphics);Servers;Synchronization;Cloud Technologies;Co-located Collaboration;Computer Supported Cooperative Work;Large Displays;Multi-user Interaction;Remote Collaboration;Window Manager}, 
+  doi={10.4108/icst.collaboratecom.2014.257337}, 
+  month={Oct},
 }
 
-@article{Kinoogle,
-  title={Web GIS in practice X: a Microsoft Kinect natural user interface for Google Earth navigation},
-  author={Boulos, Maged N Kamel and Blanchard, Bryan J and Walker, Cory and Montero, Julio and Tripathy, Aalap and Gutierrez-Osuna, Ricardo},
-  journal={International journal of health geographics},
-  volume={10},
-  number={1},
-  pages={1},
-  year={2011},
-  publisher={BioMed Central}
-}
-
-@ARTICLE{NASA,
-   author = {{Fluke}, C.~J. and {Barnes}, D.~G.},
-    title = "{The Ultimate Display}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1601.03459},
- primaryClass = "astro-ph.IM",
- keywords = {Astrophysics - Instrumentation and Methods for Astrophysics},
-     year = 2016,
-    month = jan,
-   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160103459F},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
-
-@article{QDsus,
-  title={SUS-A quick and dirty usability scale},
-  author={Brooke, John and others},
-  journal={Usability evaluation in industry},
-  volume={189},
-  number={194},
-  pages={4--7},
-  year={1996},
-  publisher={London}
-}
-
-@article{NUIWorld,
-  title={Brave NUI world},
-  author={Goth, Gregory},
-  journal={Communications of the ACM},
-  volume={54},
-  number={12},
-  pages={14--16},
-  year={2011},
-  publisher={ACM}
-}
 
 @techreport{Shneiderman,
   title={Designing the user interface: strategies for effective human-computer interaction. Boston: AddisonWesley, 2010, xviii, 606 s},
   author={SHNEIDERMAN, Ben},
   institution={ISBN 978-0-321-53735-5}
 }
-
-@article{AV,
-  title={Visualisierung Archäologischer Datensätze},
-  author={Dominic Michael Laurentius},
-  year={2014},
-  journal={Universität zu Köln, Diplomarbeit}
-}
-@article{Bau10,
-  title={uTouch3D: Multi-touch Interaction in Virtual Reality},
-  author={Baumesberger, Anton},
-  year={2010},
-  journal={Universität Koblenz Landau, Diplomarbeit}
-}
-@article{Deli13,
-  title={Freihändige Gesteninteraktion und Multi-Touch in Virtual Reality Umgebungen},
-  author={ Delisavas, Stavros},
+@book{Wiegers,
+  title={Software requirements},
+  author={Wiegers, Karl and Beatty, Joy},
   year={2013},
-  journal={Universität zu Köln, Diplomarbeit}
+  pages={320-321},
+  publisher={Pearson Education}
 }

@@ -1,0 +1,23 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{3-D}]\begingroup Three-dimensional\nomeqref {0}\nompageref{5}
+  \item [{ADC}]\begingroup Analog to Digital Converter\nomeqref {0}
+		\nompageref{5}
+  \item [{AIR}]\begingroup active infrared\nomeqref {0}\nompageref{16}
+  \item [{CMOS}]\begingroup Complementary Metal Oxide Semiconductor\nomeqref {0}
+		\nompageref{5}
+  \item [{FPS}]\begingroup Frames Per Second\nomeqref {0}\nompageref{5}
+  \item [{GS/s}]\begingroup Gigasamples Per Second\nomeqref {0}
+		\nompageref{5}
+  \item [{HCI}]\begingroup Human Computer Interaction\nomeqref {0}
+		\nompageref{5}
+  \item [{NUI}]\begingroup Natural User Interface\nomeqref {0}
+		\nompageref{5}
+  \item [{RST}]\begingroup Rotate, Scale and Translate\nomeqref {0}
+		\nompageref{5}
+  \item [{ToF}]\begingroup Time of Flight\nomeqref {0}\nompageref{5}
+  \item [{UI}]\begingroup User Interface\nomeqref {0}\nompageref{6}
+
+\end{thenomenclature}

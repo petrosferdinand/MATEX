@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.13)  3 MAY 2016 15:36
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.13)  23 MAY 2016 18:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -448,13 +448,24 @@ File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
+(/usr/local/texlive/2012/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen132
+\nom@tempdim=\dimen133
+\nomitemsep=\skip46
+)
+\@nomenclaturefile=\write3
+\openout3 = `MasterThesis.nlo'.
+
+
+Writing nomenclature file MasterThesis.nlo
 (/usr/local/texlive/2012/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen132
-\extrarowheight=\dimen133
+\col@sep=\dimen134
+\extrarowheight=\dimen135
 \NC@list=\toks23
-\extratabsurround=\skip46
-\backup@length=\skip47
+\extratabsurround=\skip47
+\backup@length=\skip48
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
@@ -613,11 +624,11 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
-\TX@col@width=\dimen134
-\TX@old@table=\dimen135
-\TX@old@col=\dimen136
-\TX@target=\dimen137
-\TX@delta=\dimen138
+\TX@col@width=\dimen136
+\TX@old@table=\dimen137
+\TX@old@col=\dimen138
+\TX@target=\dimen139
+\TX@delta=\dimen140
 \TX@cols=\count112
 \TX@ftn=\toks24
 )
@@ -627,23 +638,23 @@ Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\CenteringLeftskip=\skip48
-\RaggedLeftLeftskip=\skip49
-\RaggedRightLeftskip=\skip50
-\CenteringRightskip=\skip51
-\RaggedLeftRightskip=\skip52
-\RaggedRightRightskip=\skip53
-\CenteringParfillskip=\skip54
-\RaggedLeftParfillskip=\skip55
-\RaggedRightParfillskip=\skip56
-\JustifyingParfillskip=\skip57
-\CenteringParindent=\skip58
-\RaggedLeftParindent=\skip59
-\RaggedRightParindent=\skip60
-\JustifyingParindent=\skip61
+\CenteringLeftskip=\skip49
+\RaggedLeftLeftskip=\skip50
+\RaggedRightLeftskip=\skip51
+\CenteringRightskip=\skip52
+\RaggedLeftRightskip=\skip53
+\RaggedRightRightskip=\skip54
+\CenteringParfillskip=\skip55
+\RaggedLeftParfillskip=\skip56
+\RaggedRightParfillskip=\skip57
+\JustifyingParfillskip=\skip58
+\CenteringParindent=\skip59
+\RaggedLeftParindent=\skip60
+\RaggedRightParindent=\skip61
+\JustifyingParindent=\skip62
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen139
+\bigstrutjot=\dimen141
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
@@ -656,14 +667,14 @@ Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 (/usr/local/texlive/2012/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box31
 \UL@hyphenbox=\box32
-\UL@skip=\skip62
+\UL@skip=\skip63
 \UL@hook=\toks26
-\UL@height=\dimen140
+\UL@height=\dimen142
 \UL@pe=\count113
-\UL@pixel=\dimen141
+\UL@pixel=\dimen143
 \ULC@box=\box33
 Package: ulem 2012/05/18
-\ULdepth=\dimen142
+\ULdepth=\dimen144
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/wasysym/wasysym.sty
 Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
@@ -725,7 +736,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen143
+\@linkdim=\dimen145
 \Hy@linkcounter=\count114
 \Hy@pagecounter=\count115
 
@@ -754,8 +765,8 @@ Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4653.
 \Fld@menulength=\count118
-\Field@Width=\dimen144
-\Fld@charsize=\dimen145
+\Field@Width=\dimen146
+\Fld@charsize=\dimen147
 Package hyperref Info: Hyper figures OFF on input line 5773.
 Package hyperref Info: Link nesting OFF on input line 5778.
 Package hyperref Info: Hyper index ON on input line 5781.
@@ -782,7 +793,7 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip63
+\Hy@SectionHShift=\skip64
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
@@ -859,14 +870,14 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count127
 \calc@Bcount=\count128
-\calc@Adimen=\dimen146
-\calc@Bdimen=\dimen147
-\calc@Askip=\skip64
-\calc@Bskip=\skip65
+\calc@Adimen=\dimen148
+\calc@Bdimen=\dimen149
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count129
-\calc@Cskip=\skip66
+\calc@Cskip=\skip67
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
@@ -881,23 +892,23 @@ File: pppdftex.def 2012/04/03 v0.4s Pdfpages driver for pdfTeX (AM)
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip67
-\fb@frw=\dimen148
-\fb@frh=\dimen149
-\FrameRule=\dimen150
-\FrameSep=\dimen151
+\OuterFrameSep=\skip68
+\fb@frw=\dimen150
+\fb@frh=\dimen151
+\FrameRule=\dimen152
+\FrameSep=\dimen153
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2012/02/19 v3.2f Customizing captions (AR)
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
-\captionmargin=\dimen152
-\captionmargin@=\dimen153
-\captionwidth=\dimen154
-\caption@indent=\dimen155
-\caption@parindent=\dimen156
-\caption@hangindent=\dimen157
+\captionmargin=\dimen154
+\captionmargin@=\dimen155
+\captionwidth=\dimen156
+\caption@indent=\dimen157
+\caption@parindent=\dimen158
+\caption@hangindent=\dimen159
 )
 \c@ContinuedFloat=\count131
 Package caption Info: hyperref package is loaded.
@@ -910,6 +921,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
+(/usr/local/texlive/2012/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
@@ -919,55 +933,31 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 (/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 )
-(./MasterThesis.aux
-
-LaTeX Warning: Label `KinectGestures' multiply defined.
-
-
-LaTeX Warning: Label `KinectGestures@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig: OCL' multiply defined.
-
-
-LaTeX Warning: Label `fig: OCL@cref' multiply defined.
-
-
-LaTeX Warning: Label `subsubsec Rot' multiply defined.
-
-
-LaTeX Warning: Label `subsubsec Rot@cref' multiply defined.
-
-
-LaTeX Warning: Label `subsubsec Scale' multiply defined.
-
-
-LaTeX Warning: Label `subsubsec Scale@cref' multiply defined.
-
-)
+(./MasterThesis.aux)
 \openout1 = `MasterThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 89.
- (/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 92.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 89.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 92.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -975,13 +965,13 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count132
-\scratchdimen=\dimen158
+\scratchdimen=\dimen160
 \scratchbox=\box36
 \nofMPsegments=\count133
 \nofMParguments=\count134
 \everyMPshowfont=\toks28
 \MPscratchCnt=\count135
-\MPscratchDim=\dimen159
+\MPscratchDim=\dimen161
 \MPnumerator=\count136
 \makeMPintoPDFobject=\count137
 \everyMPtoPDFconversion=\toks29
@@ -1003,9 +993,9 @@ e
 \c@lstlisting=\count138
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 89.
+LaTeX Info: Redefining \selectfont on input line 92.
 \AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring OFF on input line 89.
+Package hyperref Info: Link coloring OFF on input line 92.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1015,57 +1005,57 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count139
 )
-LaTeX Info: Redefining \ref on input line 89.
-LaTeX Info: Redefining \pageref on input line 89.
-LaTeX Info: Redefining \nameref on input line 89.
+LaTeX Info: Redefining \ref on input line 92.
+LaTeX Info: Redefining \pageref on input line 92.
+LaTeX Info: Redefining \nameref on input line 92.
 
 (./MasterThesis.out) (./MasterThesis.out)
-\@outlinefile=\write3
-\openout3 = `MasterThesis.out'.
+\@outlinefile=\write4
+\openout4 = `MasterThesis.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 109.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 112.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 109.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 112.
 
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 109
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 112
 .
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 109
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 112
 .
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 109.
+(Font)              <12> on input line 112.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 109.
+(Font)              <8> on input line 112.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 109.
-LaTeX Font Info:    Try loading font information for U+msa on input line 109.
+(Font)              <6> on input line 112.
+LaTeX Font Info:    Try loading font information for U+msa on input line 112.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 109.
+LaTeX Font Info:    Try loading font information for U+msb on input line 112.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 109.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 112.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
@@ -1076,168 +1066,252 @@ erThesis.tocpdfTeX warning (ext4): destination with the same identifier (name{p
 age.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 ...{4.4.4} Lighting}{15}{subsubsection.4.4.4}
+l.26 ...and 3-D visualization}{15}{subsection.4.1}
                                                    [1] [2])
-\tf@toc=\write4
-\openout4 = `MasterThesis.toc'.
+\tf@toc=\write5
+\openout5 = `MasterThesis.toc'.
 
- [3] [4] [5]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 165.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 165.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 165.
+ [3]
+(./MasterThesis.nls) [4]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 139.
 
-[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
-<Images/KinectHandStates.png, id=472, 270.41025pt x 126.4725pt>
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [5] [6] [7]
+[8] [9]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 219.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 219.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 219.
+ [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+<Images/Touch1Finger.png, id=551, 949.5475pt x 443.15562pt>
+File: Images/Touch1Finger.png Graphic file (type png)
+
+<use Images/Touch1Finger.png>
+Package pdftex.def Info: Images/Touch1Finger.png used on input line 458.
+(pdftex.def)             Requested size: 379.81227pt x 177.2591pt.
+ [21]
+<Images/Touch2Fingers.png, id=562, 997.7275pt x 527.9725pt>
+File: Images/Touch2Fingers.png Graphic file (type png)
+
+<use Images/Touch2Fingers.png>
+Package pdftex.def Info: Images/Touch2Fingers.png used on input line 479.
+(pdftex.def)             Requested size: 389.11215pt x 205.90845pt.
+ [22 <./Images/Touch1Finger.png>] [23 <./Images/Touch2Fingers.png>]
+<Images/Touch3Fingers.png, id=578, 555.07375pt x 521.44812pt>
+File: Images/Touch3Fingers.png Graphic file (type png)
+
+<use Images/Touch3Fingers.png>
+Package pdftex.def Info: Images/Touch3Fingers.png used on input line 500.
+(pdftex.def)             Requested size: 388.54897pt x 365.0112pt.
+ [24 <./Images/Touch3Fingers.png>]
+<Images/Touch4Fingers.png, id=587, 949.5475pt x 443.15562pt>
+File: Images/Touch4Fingers.png Graphic file (type png)
+
+<use Images/Touch4Fingers.png>
+Package pdftex.def Info: Images/Touch4Fingers.png used on input line 514.
+(pdftex.def)             Requested size: 379.81227pt x 177.2591pt.
+ [25 <./Images/Touch4Fingers.png>]
+<Images/Touch5Fingers.png, id=595, 685.05937pt x 443.15562pt>
+File: Images/Touch5Fingers.png Graphic file (type png)
+
+<use Images/Touch5Fingers.png>
+Package pdftex.def Info: Images/Touch5Fingers.png used on input line 530.
+(pdftex.def)             Requested size: 376.78381pt x 243.73633pt.
+ [26 <./Images/Touch5Fingers.png>]
+<Images/Touch6Fingers.png, id=603, 949.5475pt x 443.15562pt>
+File: Images/Touch6Fingers.png Graphic file (type png)
+
+<use Images/Touch6Fingers.png>
+Package pdftex.def Info: Images/Touch6Fingers.png used on input line 546.
+(pdftex.def)             Requested size: 379.81227pt x 177.2591pt.
+ [27 <./Images/Touch6Fingers.png>]
+<Images/KinectHandStates.png, id=611, 225.34187pt x 105.39375pt>
 File: Images/KinectHandStates.png Graphic file (type png)
 
 <use Images/KinectHandStates.png>
-Package pdftex.def Info: Images/KinectHandStates.png used on input line 430.
-(pdftex.def)             Requested size: 405.61436pt x 189.70827pt.
-
-Overfull \hbox (15.61436pt too wide) in paragraph at lines 430--431
-[][] 
- []
-
-[20] [21 <./Images/KinectHandStates.png>] [22] [23] (./MasterThesis.bbl
-[24]
-Underfull \hbox (badness 7504) in paragraph at lines 52--54
+Package pdftex.def Info: Images/KinectHandStates.png used on input line 571.
+(pdftex.def)             Requested size: 338.01196pt x 158.09021pt.
+ [28] [29 <./Images/KinectHandStates.png>]
+[30] [31] (./MasterThesis.bbl [32] [33]
+Underfull \hbox (badness 7504) in paragraph at lines 77--79
 []\T1/lmr/m/n/12 D. M. Lau-ren-tius, ``Vi-su-al-isierung archäol-o-gis-cher dat
 en-sätze,''
  []
 
-[25]) [26]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 489.
+) [34]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 645.
 
  (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Overfull \hbox (54.60571pt too wide) in paragraph at lines 515--516
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (24.96533pt too wide) in paragraph at lines 518--519
-[][][][][][][][][][][][][][] 
- []
-
-[27]
-Overfull \hbox (32.37543pt too wide) in paragraph at lines 525--526
-[][][][][][][][][][][][][][] 
- []
-
-[28]
-Underfull \hbox (badness 10000) in alignment at lines 545--545
+) [35]
+[36] [37]
+Underfull \hbox (badness 10000) in alignment at lines 733--733
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 549--549
+Underfull \hbox (badness 10000) in alignment at lines 736--736
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 552--552
+Underfull \hbox (badness 10000) in alignment at lines 739--739
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 555--555
+Underfull \hbox (badness 10000) in alignment at lines 742--742
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 558--558
+Underfull \hbox (badness 10000) in alignment at lines 745--745
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 561--561
+Underfull \hbox (badness 10000) in alignment at lines 748--748
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 564--564
+Underfull \hbox (badness 10000) in alignment at lines 751--751
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 567--567
+Underfull \hbox (badness 10000) in alignment at lines 754--754
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 570--570
+Underfull \hbox (badness 10000) in alignment at lines 757--757
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 573--573
+Underfull \hbox (badness 10000) in alignment at lines 760--760
 [][][][][] 
  []
 
-[29] [30]
+[38]
+File: Images/Touch1Finger.png Graphic file (type png)
+ <use Images/Touch1Finger.png>
+Package pdftex.def Info: Images/Touch1Finger.png used on input line 779.
+(pdftex.def)             Requested size: 379.81227pt x 177.2591pt.
+File: Images/Touch2Fingers.png Graphic file (type png)
+ <use Images/Touch2Fingers.png>
+Package pdftex.def Info: Images/Touch2Fingers.png used on input line 789.
+(pdftex.def)             Requested size: 389.11215pt x 205.90845pt.
+File: Images/Touch3Fingers.png Graphic file (type png)
+
+<use Images/Touch3Fingers.png>
+Package pdftex.def Info: Images/Touch3Fingers.png used on input line 799.
+(pdftex.def)             Requested size: 388.54897pt x 365.0112pt.
+ [39]
+File: Images/Touch4Fingers.png Graphic file (type png)
+ <use Images/Touch4Fingers.png>
+Package pdftex.def Info: Images/Touch4Fingers.png used on input line 810.
+(pdftex.def)             Requested size: 379.81227pt x 177.2591pt.
+File: Images/Touch5Fingers.png Graphic file (type png)
+
+<use Images/Touch5Fingers.png>
+Package pdftex.def Info: Images/Touch5Fingers.png used on input line 821.
+(pdftex.def)             Requested size: 376.78381pt x 243.73633pt.
+ [40]
+File: Images/Touch6Fingers.png Graphic file (type png)
+ <use Images/Touch6Fingers.png>
+Package pdftex.def Info: Images/Touch6Fingers.png used on input line 834.
+(pdftex.def)             Requested size: 379.81227pt x 177.2591pt.
+ [41]
+[42]
 File: Images/KinectHandStates.png Graphic file (type png)
  <use Images/KinectHandStates.png>
-Package pdftex.def Info: Images/KinectHandStates.png used on input line 602.
-(pdftex.def)             Requested size: 405.61436pt x 189.70827pt.
+Package pdftex.def Info: Images/KinectHandStates.png used on input line 845.
+(pdftex.def)             Requested size: 338.01196pt x 158.09021pt.
+ [43]
+<Images/KinectInitialize.png, id=791, 949.5475pt x 443.15562pt>
+File: Images/KinectInitialize.png Graphic file (type png)
 
-Overfull \hbox (15.61436pt too wide) in paragraph at lines 602--603
-[][] 
- []
+<use Images/KinectInitialize.png>
+Package pdftex.def Info: Images/KinectInitialize.png used on input line 854.
+(pdftex.def)             Requested size: 379.81227pt x 177.2591pt.
+ [44 <./Images/KinectInitialize.png>]
+<Images/KinectRotate.png, id=799, 949.5475pt x 443.15562pt>
+File: Images/KinectRotate.png Graphic file (type png)
 
-[31] [32] [33]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 649.
- [34]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 649.
- (./MasterThesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 649.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 649.
+<use Images/KinectRotate.png>
+Package pdftex.def Info: Images/KinectRotate.png used on input line 885.
+(pdftex.def)             Requested size: 379.81227pt x 177.2591pt.
+
+<Images/KinectScale.png, id=801, 949.5475pt x 443.15562pt>
+File: Images/KinectScale.png Graphic file (type png)
+
+<use Images/KinectScale.png>
+Package pdftex.def Info: Images/KinectScale.png used on input line 903.
+(pdftex.def)             Requested size: 379.81227pt x 177.2591pt.
+ [45 <./Images/KinectRotate.png>]
+<Images/KinectMoveObject.png, id=810, 949.5475pt x 443.15562pt>
+File: Images/KinectMoveObject.png Graphic file (type png)
+
+<use Images/KinectMoveObject.png>
+Package pdftex.def Info: Images/KinectMoveObject.png used on input line 920.
+(pdftex.def)             Requested size: 379.81227pt x 177.2591pt.
+ [46 <./Images/KinectScale.png> <./Images/KinectMoveObject.png>]
+<Images/KinectMoveScenario.png, id=819, 949.5475pt x 443.15562pt>
+File: Images/KinectMoveScenario.png Graphic file (type png)
+
+<use Images/KinectMoveScenario.png>
+Package pdftex.def Info: Images/KinectMoveScenario.png used on input line 936.
+(pdftex.def)             Requested size: 379.81227pt x 177.2591pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 944.
+ [47 <./Images/KinectMoveScenario.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 944.
+
+(./MasterThesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 944.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 944.
 Package rerunfilecheck Info: File `MasterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1C71DC10F59B33C43A6F18B9F518ABC4;4020.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 649.
+(rerunfilecheck)             Checksum: E1FFAAF75907B4F7F65DFC0B95DC4AB0;5014.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 944.
  ) 
 Here is how much of TeX's memory you used:
- 13706 strings out of 493488
- 209569 string characters out of 3141325
- 343752 words of memory out of 3000000
- 16545 multiletter control sequences out of 15000+200000
- 75595 words of font info for 72 fonts, out of 3000000 for 9000
+ 14030 strings out of 493488
+ 215565 string characters out of 3141325
+ 351354 words of memory out of 3000000
+ 16771 multiletter control sequences out of 15000+200000
+ 75970 words of font info for 73 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,14n,58p,600b,1930s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
-st, replaced by a fixed one
-
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
-xlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2012
-/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2012/texmf-dist/fo
-nts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2012/texmf-dist/fonts/enc/dv
-ips/lm/lm-mathsy.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/
-lmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmcsc10.pf
-b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/lo
-cal/texlive/2012/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2012/texm
-f-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2012/texmf-dist/font
-s/type1/public/lm/lmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pub
-lic/lm/lmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr1
-7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/
-local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2012/texmf
--dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2012/texmf-dist/font
-s/type1/public/lm/lmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
-blic/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmt
-t12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/symbols
-/msbm10.pfb>
-Output written on MasterThesis.pdf (35 pages, 447157 bytes).
+ 36i,14n,58p,955b,1910s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
+texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
+12/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2012/texmf-dist/
+fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2012/texmf-dist/fonts/enc/
+dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/l
+m-ts1.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx12.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/loc
+al/texlive/2012/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive
+/2012/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2012/texm
+f-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2012/texmf-dist/font
+s/type1/public/lm/lmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pub
+lic/lm/lmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr1
+2.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2012/texm
+f-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2012/texmf-dist/fonts
+/type1/public/lm/lmro12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pub
+lic/lm/lmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lms
+y8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+>
+Output written on MasterThesis.pdf (48 pages, 8915026 bytes).
 PDF statistics:
- 720 PDF objects out of 1000 (max. 8388607)
- 657 compressed objects within 7 object streams
- 202 named destinations out of 1000 (max. 500000)
- 462 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 952 PDF objects out of 1000 (max. 8388607)
+ 852 compressed objects within 9 object streams
+ 273 named destinations out of 1000 (max. 500000)
+ 621 words of extra memory for PDF output out of 10000 (max. 10000000)
 

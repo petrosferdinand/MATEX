@@ -1,0 +1,12 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{ADC}]\begingroup Analog to Digital Converter\nomeqref {0}
+		\nompageref{4}
+  \item [{CMOS}]\begingroup Complementary Metal Oxide Silicon\nomeqref {0}
+		\nompageref{4}
+  \item [{GS/s}]\begingroup Gigasamples per second\nomeqref {0}
+		\nompageref{4}
+
+\end{thenomenclature}

@@ -5,46 +5,47 @@ The style file: ieeetr.bst
 Database file #1: MasterRef.bib
 Warning--can't use both volume and number fields in DirManSh
 Warning--empty journal in FoleyVisualization
+Warning--empty journal in HandRec
 Warning--empty year in Shneiderman
-You've used 18 entries,
+You've used 21 entries,
             1876 wiz_defined-function locations,
-            604 strings with 6388 characters,
-and the built_in function-call counts, 4195 in all, are:
-= -- 389
-> -- 166
+            623 strings with 6805 characters,
+and the built_in function-call counts, 4994 in all, are:
+= -- 474
+> -- 182
 < -- 0
-+ -- 64
-- -- 46
-* -- 290
-:= -- 618
-add.period$ -- 19
-call.type$ -- 18
-change.case$ -- 18
++ -- 71
+- -- 50
+* -- 341
+:= -- 722
+add.period$ -- 22
+call.type$ -- 21
+change.case$ -- 21
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 241
-empty$ -- 423
-format.name$ -- 46
-if$ -- 1021
+cite$ -- 25
+duplicate$ -- 287
+empty$ -- 507
+format.name$ -- 50
+if$ -- 1220
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 18
-newline$ -- 58
-num.names$ -- 18
-pop$ -- 69
+int.to.str$ -- 21
+missing$ -- 21
+newline$ -- 67
+num.names$ -- 21
+pop$ -- 81
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 134
+skip$ -- 166
 stack$ -- 0
-substring$ -- 182
-swap$ -- 81
+substring$ -- 246
+swap$ -- 99
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 41
-width$ -- 20
-write$ -- 172
-(There were 3 warnings)
+warning$ -- 4
+while$ -- 50
+width$ -- 23
+write$ -- 201
+(There were 4 warnings)

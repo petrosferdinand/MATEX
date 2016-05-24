@@ -1,5 +1,27 @@
 \begin{thebibliography}{10}
 
+\bibitem{Multimodal}
+M.-L. Bourguet, ``Designing and prototyping multimodal commands.,'' in {\em
+  INTERACT}, vol.~3, pp.~717--720, Citeseer, 2003.
+
+\bibitem{MSVTK}
+A.~J.~F. Kok and R.~van Liere, ``A multimodal virtual reality interface for 3d
+  interaction with vtk,'' {\em Knowledge and Information Systems}, vol.~13,
+  no.~2, pp.~197--219, 2007.
+
+\bibitem{DirManSh}
+B.~Shneiderman, ``Direct manipulation: A step beyond programming languages,''
+  in {\em ACM SIGSOC Bulletin}, vol.~13, p.~143, ACM, 1981.
+
+\bibitem{FoleyVisualization}
+W.~Ribarsky and J.~D. Foley, ``Next-generation data visualization tools,''
+  p.~104, 1994.
+
+\bibitem{GestureDef}
+R.~George and J.~Blake, ``Objects, containers, gestures, and manipulations:
+  Universal foundational metaphors of natural user interfaces,'' {\em CHI
+  2010}, pp.~10--15, 2010.
+
 \bibitem{NUIWorld}
 G.~Goth, ``Brave nui world,'' {\em Communications of the ACM}, vol.~54, no.~12,
   pp.~14--16, 2011.
@@ -11,6 +33,9 @@ A.~Baumesberger, ``utouch3d: Multi-touch interaction in virtual reality,'' {\em
 \bibitem{Deli13}
 S.~Delisavas, ``Freihändige gesteninteraktion und multi-touch in virtual
   reality umgebungen,'' {\em Universität zu Köln, Diplomarbeit}, 2013.
+
+\bibitem{HandRec}
+M.~Tang, ``Recognizing hand gestures with microsoft’s kinect,'' 2011.
 
 \bibitem{SAGE2}
 T.~Marrinan, J.~Aurisano, A.~Nishimoto, K.~Bharadwaj, V.~Mateevitsi,
@@ -51,19 +76,6 @@ K.~Wiegers and J.~Beatty, {\em Software requirements}.
 \bibitem{AV}
 D.~M. Laurentius, ``Visualisierung archäologischer datensätze,'' {\em
   Universität zu Köln, Diplomarbeit}, 2014.
-
-\bibitem{DirManSh}
-B.~Shneiderman, ``Direct manipulation: A step beyond programming languages,''
-  in {\em ACM SIGSOC Bulletin}, vol.~13, p.~143, ACM, 1981.
-
-\bibitem{FoleyVisualization}
-W.~Ribarsky and J.~D. Foley, ``Next-generation data visualization tools,''
-  p.~104, 1994.
-
-\bibitem{GestureDef}
-R.~George and J.~Blake, ``Objects, containers, gestures, and manipulations:
-  Universal foundational metaphors of natural user interfaces,'' {\em CHI
-  2010}, pp.~10--15, 2010.
 
 \bibitem{RST}
 Reisman, J.~L., Davidson, P.~L., Han, and J.~Y., ``A screen-space formulation
